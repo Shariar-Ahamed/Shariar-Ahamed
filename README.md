@@ -10,9 +10,11 @@ I love to do travel and Programming and Data Analysis .
 
 Skills: HTML / CSS / C# / C+ / C++ 
 
-- 🔭 I’m currently working on Web Development  
+- 🔭 I’m currently working on **Web Development** 
 - 🌱 I’m currently learning Data Structure  
 - 👯 I’m looking to collaborate on github 
+
+<p align="left"> <a href="https://twitter.com/sharierahmed1" target="blank"><img src="https://img.shields.io/twitter/follow/sharierahmed1?logo=twitter&style=for-the-badge" alt="sharierahmed1" /></a> </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
