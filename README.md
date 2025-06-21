@@ -1,4 +1,4 @@
-### Hi there 👋, Shahriar Ahmmed
+### Hi there 👋, Shariar Ahamed
 #### Web Development 
 ![Image](https://github.com/user-attachments/assets/403e0b2a-0c40-4d01-851b-4700863e5179)
 
