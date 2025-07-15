@@ -39,3 +39,8 @@ Skills: HTML / CSS / JavaScript / C# / C+ /  C++ / Python / Photoshop / illustra
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=ShahriarTbc&show_icons=true&count_private=true)  
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ShahriarTbc&bg_color=e3e3e3&color=000000&line=0cc048&point=345544&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph) 
+
+
+## ⌨️ My WakaTime Stats
+
+[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
