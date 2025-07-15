@@ -39,9 +39,3 @@ Skills: HTML / CSS / JavaScript / C# / C+ /  C++ / Python / Photoshop / illustra
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=ShahriarTbc&show_icons=true&count_private=true)  
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ShahriarTbc&bg_color=e3e3e3&color=000000&line=0cc048&point=345544&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph) 
-
-<!--[GitHub metrics](https://metrics.lecoq.io/ShahriarTbc)-->
-
-![GitHub streak stats](https://streak-stats.demolab.com/?user=ShahriarTbc)  
-
-<!--![Profile views](https://gpvc.arturio.dev/ShahriarTbc)-->
