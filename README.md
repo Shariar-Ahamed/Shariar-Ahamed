@@ -1,48 +1,99 @@
-### Hi there 👋, Shariar Ahamed
-#### Web Development 
-![Image](https://github.com/user-attachments/assets/403e0b2a-0c40-4d01-851b-4700863e5179)
+<h1 align="center">Hi there 👋, I'm Shariar Ahamed</h1>
+<h3 align="center">🚀 Passionate about Web Development | Creative Thinker | Tech Enthusiast from Dhaka, Bangladesh</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shahriartbc&label=Profile%20views&color=0e75b6&style=flat" alt="shahriartbc" /> </p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/403e0b2a-0c40-4d01-851b-4700863e5179" alt="Shariar Banner" width="100%" />
+</p>
 
-<!--[Web Development ](https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/328626254_956909441877420_1617260337356723835_n.jpg?stp=c0.47.526.526a_dst-jpg_p526x296&_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGMsZ7mhXho3TZqD999vvhHcDpWCM9UXidwOlYIz1ReJ9Mra4f73fAWMBNGjkhIOZ2J0Z2cr3hGjv_G-GyTbn-Q&_nc_ohc=QExPpQtrQOEAX-Zxw7m&_nc_ht=scontent.fdac138-1.fna&oh=00_AfDduGDjd8215dK4MFeI8yIVhUMzDAT6FS5DFTIzeSLZIQ&oe=64BEECAC)-->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shahriartbc&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>
 
-My name is Shariar Ahamed. I am doing B.Sc. in Computer Science and Engineering at Daffodil International University. I am living Dhaka , Bangladesh. Talking about the numbers I'm 20 Years Old. I am comfortable to communicate in Bangla , English and Hindi.
+---
 
-As a tech enthusiast I love doing programing , researching about the latest techy things , experimenting with electronics. 
+## 🧑‍💻 About Me
 
-I love to do travel and Programming and Data Analysis .
+- 🎓 B.Sc. in CSE @ **Daffodil International University**
+- 🌍 Based in: **Dhaka, Bangladesh**
+- 🔭 Currently focusing on **Web Development**
+- 🌱 Actively learning **Data Structures**
+- 💬 Languages I speak: **Bangla, English, Hindi**
+- 📫 Reach me anytime: *Any social media below*
+- 🤝 Always open to **GitHub Collaboration**
 
-Skills: HTML / CSS / JavaScript / C# / C+ /  C++ / Python / Photoshop / illustrator /  Adobe Premiere Pro.
+---
 
-- 🔭 I’m currently working on Web Development   
-- 🌱 I’m currently learning Data Structure 
-- 👯 I’m looking to collaborate on githubb 
-- 📫 How to reach me: Any social media 
+## ⚡ Tech Enthusiast Facts
+
+I’m a curious explorer of code & design. I love:
+- 🧠 Programming & Problem Solving  
+- 🧪 Exploring latest tech trends & tools  
+- 💡 Creating clean, minimal UI designs  
+- 🗺️ Travelling + Data Analysis = My jam  
+
+---
+
+## 🛠️ Skills & Tools
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="40" height="40"/>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+  </a>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/>
+  <a href="https://www.java.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
+  </a>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="Illustrator" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop" width="40" height="40"/>
+</p>
 
 
-<h3 align="left">Connect with me:</h3>
-<a href="https://fb.com/shahriar.thebrowncat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="shahriar.thebrowncat" height="30" width="40" /></a><a href="https://instagram.com/shahriar_thebrowncat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="shahriar_thebrowncat" height="30" width="40" /></a> <a href="https://linkedin.com/in/shahriar-thebrowncat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shahriar-thebrowncat" height="30" width="40" /></a>  <a href="https://twitter.com/ShariarAlways" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ShariarAlways" height="30" width="40" /></a>
+---
 
-
-
- <h3 align="left">Languages and Tools:</h3>
-
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-
-
-## ⌨️ My WakaTime Stats
+## 📊 My WakaTime Coding Stats
 
 [![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
+---
 
+## 📈 GitHub Stats & Activity
 
-<a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> <a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a> <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a> <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a> 
+<!----p align="center"--->
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShahriarTbc&layout=compact&theme=tokyonight" alt="Top Langs"/>
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ShahriarTbc&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub Stats"/>
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ShahriarTbc&bg_color=e3e3e3&color=000000&line=0cc048&point=345544&area=true&hide_border=true" alt="Activity Graph"/>
+</p>
 
-<!--[![trophy](https://github-profile-trophy.vercel.app/?username=ShahriarTbc)](https://github.com/ryo-ma/github-profile-trophy)-->
+---
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShahriarTbc)](https://github.com/anuraghazra/github-readme-stats)
+## 🌐 Connect with Me
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ShahriarTbc&show_icons=true&count_private=true)  
+<p align="left">
+  <a href="https://fb.com/shahriar.thebrowncat" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40"/></a>
+  <a href="https://instagram.com/shahriar_thebrowncat" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40"/></a>
+  <a href="https://linkedin.com/in/shahriar-thebrowncat" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/></a>
+  <a href="https://twitter.com/ShariarAlways" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40"/></a>
+</p>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ShahriarTbc&bg_color=e3e3e3&color=000000&line=0cc048&point=345544&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph) 
+---
 
+## 🏆 GitHub Achievements
+
+<p align="center">
+  <a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a>
+  <a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a>
+  <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a>
+  <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a>
+  <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a>
+</p>
