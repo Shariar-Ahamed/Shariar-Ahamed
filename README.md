@@ -55,12 +55,23 @@ I’m a curious explorer of code & design. I love:
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop" width="40" height="40"/>
 </p>
 
-
 ---
 
-## 📊 My WakaTime Coding Stats
+## 📊 My Coding Stats
 
-![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight)
+[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2)](https://wakatime.com/@ShariarAlways)
+
+
+## ⏱️ My Real-time Coding Stats (WakaTime SVG)
+
+<p align="left">
+  <img 
+    src="https://wakatime.com/share/@ShariarAlways/387ee371-4734-4c0e-b625-06852c89bac9.svg" 
+    width="480px" 
+    height="3670px" 
+    alt="WakaTime Stats"
+  />
+</p>
 
 ---
 
