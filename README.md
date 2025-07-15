@@ -60,7 +60,7 @@ I’m a curious explorer of code & design. I love:
 
 ## 📊 My WakaTime Coding Stats
 
-[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight)]
+![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight)
 
 ---
 
