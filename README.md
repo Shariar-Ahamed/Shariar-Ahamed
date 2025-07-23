@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shahriartbc&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Shariar-Ahamed&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
 ---
@@ -79,11 +79,11 @@ I’m a curious explorer of code & design. I love:
 
 <!----p align="center"--->
 <p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShahriarTbc&layout=compact&theme=tokyonight" alt="Top Langs"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight" alt="Top Langs"/>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=ShahriarTbc&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub Stats"/>
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ShahriarTbc&bg_color=e3e3e3&color=000000&line=0cc048&point=345544&area=true&hide_border=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=e3e3e3&color=000000&line=0cc048&point=345544&area=true&hide_border=true" alt="Activity Graph"/>
 </p>
 
 ---
