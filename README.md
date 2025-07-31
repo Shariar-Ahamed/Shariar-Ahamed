@@ -59,9 +59,16 @@ I’m a curious explorer of code & design. I love:
 
 ## 📊 My Coding Stats
 
+<!-- WakaTime Badge -->
+![WakaTime Badge](https://wakatime.com/badge/user/c7433bc5-6f12-4c97-baea-430790fa608c.svg)
+
+<!-- WakaTime GitHub Stats -->
 [![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2)](https://wakatime.com/@ShariarAlways)
 
 
+<!---## 📊 My Coding Stats
+
+[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2)](https://wakatime.com/@ShariarAlways) --->
 ## ⏱️ My Real-time Coding Stats (WakaTime SVG)
 
 <p align="left">
@@ -72,6 +79,8 @@ I’m a curious explorer of code & design. I love:
     alt="WakaTime Stats"
   />
 </p>
+
+⏱️ Powered by [WakaTime](https://wakatime.com/@ShariarAlways) — tracking my coding activity in real-time!
 
 ---
 
