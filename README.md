@@ -110,7 +110,6 @@ I’m a curious explorer of code & design. I love:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=e3e3e3&color=000000&line=0cc048&point=345544&area=true&hide_border=true" width="800" alt="Activity Graph"/>
 </p>
 
-
 ---
 
 ## 🌐 Connect with Me
