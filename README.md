@@ -91,15 +91,23 @@ I’m a curious explorer of code & design. I love:
 ## 📈 GitHub Stats & Activity
 
 <!----p align="center"--->
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight" alt="Top Langs"/>
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub Stats"/>
-  <br/>
-  ![Summary Cards Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shariar-ahamed&theme=dracula)
-  <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=e3e3e3&color=000000&line=0cc048&point=345544&area=true&hide_border=true" alt="Activity Graph"/>
+## 📈 GitHub Stats & Activity
+
+<p align="center">
+  <!-- GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" alt="GitHub Stats" />
+
+  <br/><br/>
+
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight" alt="Top Languages" />
+
+  <br/><br/>
+
+  <!-- Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=e3e3e3&color=0cc048&line=345544&point=000000&area=true&hide_border=true" alt="Activity Graph" />
 </p>
+
 
 ---
 
