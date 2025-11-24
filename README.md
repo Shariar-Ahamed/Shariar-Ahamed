@@ -100,6 +100,11 @@ I’m a curious explorer of code & design. I love:
   <img src="https://github-readme-stats.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" width="400" alt="GitHub Stats"/>
 </p>
 
+<!-- Total Contributions, Current Streak, Longest Streak -->
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=shariar-ahamed&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D&ring=eb8402&fire=eb8402&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&currStreakLabel=eb8402&border=ffffff" alt="GitHub Streak" />
+</p>
+
 <!-- Summary Cards (optional, might not render inline) -->
 <p>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shariar-ahamed&theme=dracula" width="600" alt="Summary Cards"/>
