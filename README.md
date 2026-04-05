@@ -115,7 +115,7 @@ I’m a curious explorer of code & design. I love:
 
 <!-- Top Languages -->
 <p>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight&count_private=true" width="300" alt="Top Languages"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight&count_private=true" width="350" alt="Top Languages"/>
 </p>
 
 <!-- GitHub Stats 
