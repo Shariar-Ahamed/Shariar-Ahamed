@@ -90,14 +90,30 @@ I’m a curious explorer of code & design. I love:
 
 ## 📈 GitHub Stats & Activity
 
-<!-- Top Languages -->
+<!-- Top Languages 
 <p>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight" width="300" alt="Top Languages"/>
+</p> -->
+
+<!-- Top Languages -->
+<p>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight&count_private=true" width="300" alt="Top Languages"/>
 </p>
+
+<p>
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
+
+<!-- GitHub Stats 
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" width="400" alt="GitHub Stats"/>
+</p> -->
 
 <!-- GitHub Stats -->
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" width="400" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" width="400" alt="GitHub Stats"/>
 </p>
 
 <!-- Total Contributions, Current Streak, Longest Streak -->
