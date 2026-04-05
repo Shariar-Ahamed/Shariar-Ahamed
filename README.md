@@ -110,9 +110,9 @@ I’m a curious explorer of code & design. I love:
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shariar-ahamed&theme=dracula" width="600" alt="Summary Cards"/>
 </p>
 
-<!-- Activity Graph -->
+<!-- Activity Graph (Dracula Style) -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=e3e3e3&color=000000&line=0cc048&point=345544&area=true&hide_border=true" width="800" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=282a36&color=f8f8f2&line=bd93f9&point=ff79c6&area=true&hide_border=true" width="800" alt="Activity Graph"/>
 </p>
 
 ---
