@@ -148,10 +148,16 @@ I’m a curious explorer of code & design. I love:
 ## 🌐 Connect with Me
 
 <p align="left">
-  <a href="https://fb.com/shahriar.thebrowncat" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40"/></a>
-  <a href="https://instagram.com/shahriar_thebrowncat" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40"/></a>
-  <a href="https://linkedin.com/in/shahriar-thebrowncat" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/></a>
-  <a href="https://twitter.com/ShariarAlways" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40"/></a>
+  <a href="https://fb.com/shahriar.thebrowncat"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
+  <a href="https://instagram.com/shahriar_thebrowncat"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
+  <a href="https://linkedin.com/in/shariarahamed"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
+  <a href="https://twitter.com/ShariarAlways"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
+  <a href="mailto:shariaralways@gmail.com"><img src="https://i.postimg.cc/xXC4MwwJ/gmail.png" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
+
+  <!-- Website -->
+  <a href="https://www.ripon.engineer/" target="_blank">
+    <img src="https://i.postimg.cc/RWBczKRr/website.png" height="40" style="display:block; vertical-align:middle;">
+  </a>
 </p>
 
 ---
