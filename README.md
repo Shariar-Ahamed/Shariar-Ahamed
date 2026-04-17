@@ -160,7 +160,18 @@ I’m a curious explorer of code & design. I love:
   </a>
 </p>
 
----
+<!--- Professional 
+## 🌐 Connect with Me
+
+<p align="left">
+<a href="https://linkedin.com/in/shariarahamed"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="40"/></a>&nbsp;&nbsp;
+<a href="https://www.ripon.engineer/"><img src="https://i.postimg.cc/RWBczKRr/website.png" height="40"/></a>&nbsp;&nbsp;
+<a href="https://fb.com/shahriar.thebrowncat"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" height="40"/></a>&nbsp;&nbsp;
+<a href="https://instagram.com/shahriar_thebrowncat"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="40"/></a>&nbsp;&nbsp;
+<a href="https://twitter.com/ShariarAlways"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="40"/></a>&nbsp;&nbsp;
+<a href="mailto:shariaralways@gmail.com"><img src="https://i.postimg.cc/xXC4MwwJ/gmail.png" height="40"/></a>
+</p>
+--->
 
 <!---## 🏆 GitHub Achievements
 
