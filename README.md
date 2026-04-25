@@ -57,8 +57,8 @@ A complete overview of my skills in frontend, backend, programming, design, and 
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" />
+  <!--- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" /> --->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="45" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" />
 </p>
 
@@ -79,8 +79,8 @@ A complete overview of my skills in frontend, backend, programming, design, and 
 
 <p>
   <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="40" />
-  <img src="https://i.postimg.cc/gk2sLyNn/pixso-cn-icon-unplated.png" width="40" />
-  <img src="https://i.postimg.cc/qvPvWTRm/adobe-photoshop-logo-png-seeklogo-380560-removebg-preview.png" width="40" />
+  <img src="https://i.postimg.cc/gk2sLyNn/pixso-cn-icon-unplated.png" width="45" />
+  <img src="https://i.postimg.cc/qvPvWTRm/adobe-photoshop-logo-png-seeklogo-380560-removebg-preview.png" width="44" />
   <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" width="40" />
   <img src="https://i.postimg.cc/SsHcj5Ny/image.png" width="40" />
   <!-- <img src="https://i.postimg.cc/52WQhLjC/canva.png" width="40" /> -->
@@ -94,7 +94,7 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://i.postimg.cc/P51VHWy1/git.png" width="40" />
   <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" /> -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kalilinux/kalilinux-original.svg" width="40" />
 </p>
