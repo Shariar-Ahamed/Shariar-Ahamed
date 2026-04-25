@@ -110,6 +110,7 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="40" />
   <img src="https://i.postimg.cc/fycPWY7F/vite.png" width="40" />
+  <img src="https://i.postimg.cc/nVgCbBMR/Wordpress.png" width="40" />
   <img src="https://i.postimg.cc/FK7ZR0gp/powershell-removebg-preview.png" width="45" />
 </p>
 
