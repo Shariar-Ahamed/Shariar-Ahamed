@@ -100,12 +100,14 @@ A complete overview of my skills in frontend, backend, programming, design, and 
 
 ### 🛠 Tools & Technologies
 
-<p>
+<p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" />
+  <img src="https://i.postimg.cc/sD8Zw54C/download.jpg" width="40" style="vertical-align: middle;" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="40" />
 </p>
+
 
 ---
 
