@@ -82,6 +82,8 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://i.postimg.cc/gk2sLyNn/pixso-cn-icon-unplated.png" width="40" />
   <img src="https://i.postimg.cc/qvPvWTRm/adobe-photoshop-logo-png-seeklogo-380560-removebg-preview.png" width="40" />
   <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" width="40" />
+  <img src="https://i.postimg.cc/SsHcj5Ny/image.png" width="40" />
+  <!-- <img src="https://i.postimg.cc/52WQhLjC/canva.png" width="40" /> -->
 </p>
 
 ---
