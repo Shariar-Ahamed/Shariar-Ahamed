@@ -33,7 +33,7 @@ I’m a curious explorer of code & design. I love:
 
 ---
 
-# 🚀 My Tech Stack
+## 🚀 My Tech Stack
 
 A complete overview of my skills in frontend, backend, programming, design, and DevOps.
 
