@@ -45,7 +45,8 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" />
+  <img src="https://i.postimg.cc/zvpc0wGT/Microsoft-Visual-Studio-Services-Icons.png" width="45" />
+  <img src="https://i.postimg.cc/ryts3h1Z/Microsoft-Visual-Studio-Services-Icons.png" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" />
   <img src="https://i.postimg.cc/g2BjYh0c/image.png" width="40" />
