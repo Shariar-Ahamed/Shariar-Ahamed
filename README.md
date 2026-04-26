@@ -56,7 +56,7 @@ A complete overview of my skills in frontend, backend, programming, design, and 
 ### ⚙️ Backend Development
 
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" />
+  <img src="https://i.postimg.cc/T3cXBbHG/node-js.png" width="60" />
   <!--- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" /> --->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="45" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" />
