@@ -57,11 +57,13 @@ A complete overview of my skills in frontend, backend, programming, design, and 
 ### ⚙️ Backend Development
 
 <p>
+<img src="https://i.postimg.cc/W10sjk6L/n8n-icon.png" width="40" />
   <img src="https://i.postimg.cc/T3cXBbHG/node-js.png" width="70" />
   <!--- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" /> --->
   <img src="https://i.postimg.cc/KzDLMJ9X/mongo-db.png" width="40" />
-  <img src="https://i.postimg.cc/m2Zn3cBm/images.png" width="50" />
+  <img src="https://i.postimg.cc/Nfm1hdV9/pngegg.png" width="55" />
 </p>
+
 
 ---
 
@@ -95,6 +97,7 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://i.postimg.cc/P51VHWy1/git.png" width="40" />
   <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" /> -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" />
+  <img src="https://i.postimg.cc/cC5fsjWf/ngroke.png" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kalilinux/kalilinux-original.svg" width="40" />
