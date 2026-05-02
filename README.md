@@ -49,7 +49,7 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://i.postimg.cc/ryts3h1Z/Microsoft-Visual-Studio-Services-Icons.png" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" />
-  <img src="https://i.postimg.cc/g2BjYh0c/image.png" width="40" />
+<img src="https://i.postimg.cc/RCkCK5mz/TG-Up.png" width="45" />
 </p>
 
 ---
