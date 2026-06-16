@@ -174,15 +174,15 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
 </p>
 
-<!-- Top Languages 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight" width="300" alt="Top Languages"/>
-</p> -->
-
 <!-- Top Languages -->
 <p>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight&count_private=true" width="350" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight" width="300" alt="Top Languages"/>
 </p> 
+
+<!-- Top Languages
+<p>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight&count_private=true" width="350" alt="Top Languages"/>
+</p> -->
 
 <!-- GitHub Stats 
 <p>
