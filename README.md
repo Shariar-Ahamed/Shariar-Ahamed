@@ -214,15 +214,15 @@ A complete overview of my skills in frontend, backend, programming, design, and 
 ## 🌐 Connect with Me
 
 <p align="left">
-  <a href="https://fb.com/shahriar.thebrowncat"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
-  <a href="https://instagram.com/shahriar_thebrowncat"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
-  <a href="https://linkedin.com/in/shariarahamed"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
-  <a href="https://twitter.com/ShariarAlways"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
-  <a href="mailto:shariaralways@gmail.com"><img src="https://i.postimg.cc/xXC4MwwJ/gmail.png" height="40"></a><span>&nbsp;&nbsp;&nbsp;</span>
+  <a href="https://fb.com/shahriar.thebrowncat"><img src="https://img.icons8.com/?size=100&id=jZ0kw76QEzJU&format=png&color=000000" height="40"></a>&nbsp;
+  <a href="https://instagram.com/shahriar_thebrowncat"><img src="https://img.icons8.com/?size=100&id=nj0Uj45LGUYh&format=png&color=000000" height="40"></a>&nbsp;
+  <a href="https://linkedin.com/in/shariarahamed"><img src="https://img.icons8.com/?size=100&id=kBCrQMzpQDLQ&format=png&color=000000" height="40"></a>&nbsp;
+  <a href="https://twitter.com/ShariarAlways"><img src="https://img.icons8.com/?size=100&id=vzeEiquVUR7e&format=png&color=000000" height="40"></a>&nbsp;
+  <a href="mailto:shariaralways@gmail.com"><img src="https://img.icons8.com/?size=100&id=eFPBXQop6V2m&format=png&color=000000" height="40"></a>&nbsp;
 
   <!-- Website -->
-  <a href="https://www.ripon.engineer/" target="_blank">
-    <img src="https://i.postimg.cc/RWBczKRr/website.png" height="40" style="display:block; vertical-align:middle;">
+  <a href="https://www.shariarahamed.me/" target="_blank">
+    <img src="https://img.icons8.com/?size=100&id=zrTptiWiMTtu&format=png&color=000000" height="40" style="display:block; vertical-align:middle;">
   </a>
 </p>
 
