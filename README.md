@@ -1,5 +1,8 @@
-<h1 align="center">Hi there 👋, I'm Shariar Ahamed</h1>
-<h3 align="center">🚀 Passionate about Web Development | Creative Thinker | Tech Enthusiast from Dhaka, Bangladesh</h3>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7c5cfc&height=200&section=header&text=Shariar%20Ahamed&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Passionate%20about%20Web%20Development%20%7C%20Creative%20Thinker%20%7C%20Tech%20Enthusiast&descAlignY=55&descAlign=50" width="100%"/>
+
+</div>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/403e0b2a-0c40-4d01-851b-4700863e5179" alt="Shariar Banner" width="100%" />
@@ -257,3 +260,5 @@
   <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a>
   <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a>
 </p>-->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7c5cfc&height=120&section=footer" width="100%"/>
