@@ -9,37 +9,42 @@
   <img src="https://komarev.com/ghpvc/?username=Shariar-Ahamed&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
----
+<hr />
 
-## 🧑‍💻 About Me
+<h2>🧑‍💻 About Me</h2>
 
-- 🎓 B.Sc. in CSE @ **Daffodil International University**
-- 🌍 Based in: **Dhaka, Bangladesh**
-- 🔭 Currently focusing on **Web Development**
-- 🌱 Actively learning **Data Structures**
-- 💬 Languages I speak: **Bangla, English, Hindi**
-- 📫 Reach me anytime: *Any social media below*
-- 🤝 Always open to **GitHub Collaboration**
+<ul>
+  <li>🎓 B.Sc. in CSE @ <strong>Daffodil International University</strong></li>
+  <li>🌍 Based in: <strong>Dhaka, Bangladesh</strong></li>
+  <li>🔭 Currently focusing on <strong>Web Development</strong></li>
+  <li>🌱 Actively learning <strong>Data Structures</strong></li>
+  <li>💬 Languages I speak: <strong>Bangla, English, Hindi</strong></li>
+  <li>📫 Reach me anytime: <em>Any social media below</em></li>
+  <li>🤝 Always open to <strong>GitHub Collaboration</strong></li>
+</ul>
 
----
+<hr />
 
-## ⚡ Tech Enthusiast Facts
+<h2>⚡ Tech Enthusiast Facts</h2>
 
-I’m a curious explorer of code & design. I love:
-- 🧠 Programming & Problem Solving  
-- 🧪 Exploring latest tech trends & tools  
-- 💡 Creating clean, minimal UI designs  
-- 🗺️ Travelling + Data Analysis = My jam  
+<p>I’m a curious explorer of code & design. I love:</p>
 
----
+<ul>
+  <li>🧠 Programming & Problem Solving</li>
+  <li>🧪 Exploring latest tech trends & tools</li>
+  <li>💡 Creating clean, minimal UI designs</li>
+  <li>🗺️ Travelling + Data Analysis = My jam</li>
+</ul>
 
-## 🚀 My Tech Stack
+<hr />
 
-A complete overview of my skills in frontend, backend, programming, design, and DevOps.
+<h2>🚀 My Tech Stack</h2>
 
----
+<p>A complete overview of my skills in frontend, backend, programming, design, and DevOps.</p>
 
-### 🎨 Frontend Development
+<hr />
+
+<h3>🎨 Frontend Development</h3>
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />
@@ -52,22 +57,21 @@ A complete overview of my skills in frontend, backend, programming, design, and 
 <img src="https://i.postimg.cc/RCkCK5mz/TG-Up.png" width="45" />
 </p>
 
----
+<hr />
 
-### ⚙️ Backend Development
+<h3>⚙️ Backend Development</h3>
 
 <p>
   <img src="https://i.postimg.cc/T3cXBbHG/node-js.png" width="70" />
-   <img src="https://i.postimg.cc/W10sjk6L/n8n-icon.png" width="40" />
-  <!--- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" /> --->
+  <img src="https://i.postimg.cc/W10sjk6L/n8n-icon.png" width="40" />
+  <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" /> -->
   <img src="https://i.postimg.cc/KzDLMJ9X/mongo-db.png" width="40" />
   <img src="https://i.postimg.cc/Nfm1hdV9/pngegg.png" width="55" />
 </p>
 
+<hr />
 
----
-
-### 💻 Programming Languages
+<h3>💻 Programming Languages</h3>
 
 <p>
   <img src="https://i.postimg.cc/d1gV8cyH/C-Logo-removebg-preview.png" width="37" />
@@ -76,9 +80,9 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" />
 </p>
 
----
+<hr />
 
-### 🎯 UI/UX Design
+<h3>🎯 UI/UX Design</h3>
 
 <p>
   <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="40" />
@@ -89,9 +93,9 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <!-- <img src="https://i.postimg.cc/52WQhLjC/canva.png" width="40" /> -->
 </p>
 
----
+<hr />
 
-### ☁️ Cloud & DevOps
+<h3>☁️ Cloud & DevOps</h3>
 
 <p>
   <img src="https://i.postimg.cc/P51VHWy1/git.png" width="40" />
@@ -103,9 +107,9 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kalilinux/kalilinux-original.svg" width="40" />
 </p>
 
----
+<hr />
 
-### 🛠 Tools & Technologies
+<h3>🛠 Tools & Technologies</h3>
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" />
@@ -120,28 +124,33 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://i.postimg.cc/FK7ZR0gp/powershell-removebg-preview.png" width="45" />
 </p>
 
+<hr />
 
----
-
-## 📊 My Coding Stats
+<h2>📊 My Coding Stats</h2>
 
 <!-- WakaTime Badge -->
-![WakaTime Badge](https://wakatime.com/badge/user/c7433bc5-6f12-4c97-baea-430790fa608c.svg)
+<p>
+  <img src="https://wakatime.com/badge/user/c7433bc5-6f12-4c97-baea-430790fa608c.svg" alt="WakaTime Badge" />
+</p>
 
 <!-- WakaTime GitHub Stats -->
-[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2)](https://wakatime.com/@ShariarAlways)
+<p>
+  <a href="https://wakatime.com/@ShariarAlways">
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2" alt="WakaTime Stats" />
+  </a>
+</p>
 
-🚀 Powered by **[WakaTime](https://wakatime.com/@ShariarAlways)** — tracking my coding activity in real-time!
+<p>🚀 Powered by <strong><a href="https://wakatime.com/@ShariarAlways">WakaTime</a></strong> — tracking my coding activity in real-time!</p>
 
-<!--⏱️ Powered by [WakaTime](https://wakatime.com/@ShariarAlways) — tracking my coding activity in real-time!--->
+<!--⏱️ Powered by <a href="https://wakatime.com/@ShariarAlways">WakaTime</a> — tracking my coding activity in real-time!-->
 
-<!---## 📊 My Coding Stats
+<!--<h2>📊 My Coding Stats</h2>
 
-[![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2)](https://wakatime.com/@ShariarAlways) --->
+<a href="https://wakatime.com/@ShariarAlways"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2" alt="WakaTime Stats" /></a> -->
 
----
+<hr />
 
-## ⏱️ My Real-time Coding Stats (WakaTime SVG)
+<h2>⏱️ My Real-time Coding Stats (WakaTime SVG)</h2>
 
 <p align="left">
   <img 
@@ -152,9 +161,9 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   />
 </p>
 
----
+<hr />
 
-## 📈 GitHub Stats & Activity
+<h2>📈 GitHub Stats & Activity</h2>
 
 <!-- Use Languages -->
 <p>
@@ -174,17 +183,17 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
 </p>
 
-<!-- Top Languages
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight" width="300" alt="Top Languages"/>
-</p> -->
-
 <!-- Top Languages -->
 <p>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight&count_private=true" width="350" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight" width="300" alt="Top Languages"/>
 </p>
 
-<!-- GitHub Stats 
+<!-- Top Languages
+<p>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight&count_private=true" width="350" alt="Top Languages"/>
+</p> -->
+
+<!-- GitHub Stats
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" width="400" alt="GitHub Stats"/>
 </p> -->
@@ -209,9 +218,9 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=282a36&color=f8f8f2&line=bd93f9&point=ff79c6&area=true&hide_border=true" width="800" alt="Activity Graph"/>
 </p>
 
----
+<hr />
 
-## 🌐 Connect with Me
+<h2>🌐 Connect with Me</h2>
 
 <p align="left">
   <a href="https://fb.com/shahriar.thebrowncat"><img src="https://img.icons8.com/?size=100&id=jZ0kw76QEzJU&format=png&color=000000" height="40"></a>&nbsp;
@@ -226,20 +235,20 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   </a>
 </p>
 
-<!--- Professional 
-## 🌐 Connect with Me
+<!-- Professional
+<h2>🌐 Connect with Me</h2>
 
 <p align="left">
 <a href="https://linkedin.com/in/shariarahamed"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="40"/></a>&nbsp;&nbsp;
-<a href="https://www.ripon.engineer/"><img src="https://i.postimg.cc/RWBczKRr/website.png" height="40"/></a>&nbsp;&nbsp;
+<a href="https://www.shariarahamed.me/"><img src="https://i.postimg.cc/RWBczKRr/website.png" height="40"/></a>&nbsp;&nbsp;
 <a href="https://fb.com/shahriar.thebrowncat"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" height="40"/></a>&nbsp;&nbsp;
 <a href="https://instagram.com/shahriar_thebrowncat"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="40"/></a>&nbsp;&nbsp;
 <a href="https://twitter.com/ShariarAlways"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" height="40"/></a>&nbsp;&nbsp;
 <a href="mailto:shariaralways@gmail.com"><img src="https://i.postimg.cc/xXC4MwwJ/gmail.png" height="40"/></a>
 </p>
---->
+-->
 
-<!---## 🏆 GitHub Achievements
+<!--## 🏆 GitHub Achievements
 
 <p align="center">
   <a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a>
@@ -247,4 +256,4 @@ A complete overview of my skills in frontend, backend, programming, design, and 
   <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a>
   <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a>
   <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a>
-</p>--->
+</p>-->
