@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/403e0b2a-0c40-4d01-851b-4700863e5179" alt="Shariar Banner" width="100%" />
+  <img src="https://github.com/user-attachments/assets/403e0b2a-0c40-4d01-851b-4700863e5179" alt="Shariar Banner" width="90%" style="border-radius: 15px;" />
 </p>
 
 <p align="center">
