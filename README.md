@@ -268,3 +268,9 @@
 </p>-->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7c5cfc&height=120&section=footer" width="100%"/>
+
+<div align="center">
+  <p>🔒 <strong>Copyright &amp; Intellectual Property Notice</strong></p>
+  <p><em>The custom terminal UI, dithered SVG assets, and 3-state morphing particle animations in this profile are exclusively created for <strong>Shariar Ahamed (<a href="https://github.com/Shariar-Ahamed">@Shariar-Ahamed</a>)</strong>. Copying, re-distributing, or modifying these design assets without explicit permission is strictly prohibited. Copyright &copy; 2026 Shariar Ahamed. All Rights Reserved.</em></p>
+</div>
+
