@@ -5,7 +5,11 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/403e0b2a-0c40-4d01-851b-4700863e5179" alt="Shariar Banner" width="100%" style="border-radius: 15px;" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="light.svg">
+    <img alt="Shariar Ahamed Profile" src="dark.svg" width="100%">
+  </picture>
 </p>
 
 <p align="center">
