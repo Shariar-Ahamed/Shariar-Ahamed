@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Shariar Ahamed — profile.sh --live">
 <defs>
-<linearGradient id="draculaAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#bd93f9"><animate attributeName="stop-color" values="#bd93f9;#8be9fd;#50fa7b;#ff79c6;#bd93f9" dur="10s" repeatCount="indefinite"/></stop>
-      <stop offset="0.5" stop-color="#8be9fd"><animate attributeName="stop-color" values="#8be9fd;#50fa7b;#ff79c6;#bd93f9;#8be9fd" dur="10s" repeatCount="indefinite"/></stop>
-      <stop offset="1" stop-color="#50fa7b"><animate attributeName="stop-color" values="#50fa7b;#ff79c6;#bd93f9;#8be9fd;#50fa7b" dur="10s" repeatCount="indefinite"/></stop>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="0.5" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="10s" repeatCount="indefinite"/></stop>
     </linearGradient>
+<linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A101F"/><stop offset="1" stop-color="#0C1426"/></linearGradient>
 <filter id="glow8" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="8"/></filter>
 <filter id="glow3" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
 <clipPath id="winClip"><rect x="2" y="2" width="1176" height="606" rx="18"/></clipPath>
@@ -13,30 +14,30 @@
 <clipPath id="boxClip"><rect x="36" y="84" width="400" height="492"/></clipPath>
 </defs>
 
-<rect x="2" y="2" width="1176" height="606" rx="18" fill="#21222c"/>
+<rect x="2" y="2" width="1176" height="606" rx="18" fill="#070B16"/>
 <g clip-path="url(#winClip)">
-<rect x="2" y="2" width="1176" height="606" fill="#282a36"/>
-<rect x="2" y="2" width="1176" height="46" fill="#44475a"/>
-<line x1="2" y1="48" x2="1178" y2="48" stroke="rgba(255,255,255,0.12)"/>
-<circle cx="30" cy="25.0" r="5.5" fill="#ff5555"/>
-<circle cx="50" cy="25.0" r="5.5" fill="#f1fa8c"/>
-<circle cx="70" cy="25.0" r="5.5" fill="#50fa7b"/>
-<text x="590.0" y="29.0" text-anchor="middle" font-size="12" fill="#6272a4">shariaralways@gmail.com - % ./profile.sh --live</text>
+<rect x="2" y="2" width="1176" height="606" fill="url(#panelGrad)"/>
+<rect x="2" y="2" width="1176" height="46" fill="#0B1222"/>
+<line x1="2" y1="48" x2="1178" y2="48" stroke="rgba(255,255,255,0.10)"/>
+<circle cx="30" cy="25.0" r="5.5" fill="#ff5f56"/>
+<circle cx="50" cy="25.0" r="5.5" fill="#ffbd2e"/>
+<circle cx="70" cy="25.0" r="5.5" fill="#27c93f"/>
+<text x="590.0" y="29.0" text-anchor="middle" font-size="12" fill="#94A3B8">shariaralways@gmail.com - % ./profile.sh --live</text>
 
-<!-- VISUAL.MAP Header (Dracula Comment Gray Color #6272a4) -->
-<text x="38" y="74" font-size="11" font-weight="600" letter-spacing="3" fill="#6272a4">VISUAL.MAP</text>
-<rect x="36" y="84" width="400" height="492" fill="none" stroke="#8be9fd" stroke-width="2" opacity="0.50" filter="url(#glow3)"/>
-<rect x="36" y="84" width="400" height="492" fill="#282a36" stroke="rgba(139, 233, 253, 0.40)"/>
+<!-- VISUAL.MAP Header (Subtle Gray Color #475569) -->
+<text x="38" y="74" font-size="11" font-weight="600" letter-spacing="3" fill="#475569">VISUAL.MAP</text>
+<rect x="36" y="84" width="400" height="492" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0.45" filter="url(#glow3)"/>
+<rect x="36" y="84" width="400" height="492" fill="#0A101F" stroke="rgba(34,211,238,0.35)"/>
 
-<!-- Dracula Cyan Corner Brackets DIRECTLY ON TOP OF BOX BORDER (Zero Gap) -->
-<path d="M 36 106 L 36 84 L 58 84" fill="none" stroke="#8be9fd" stroke-width="3.5" stroke-linecap="square"/>
-<path d="M 414 84 L 436 84 L 436 106" fill="none" stroke="#8be9fd" stroke-width="3.5" stroke-linecap="square"/>
-<path d="M 36 554 L 36 576 L 58 576" fill="none" stroke="#8be9fd" stroke-width="3.5" stroke-linecap="square"/>
-<path d="M 414 576 L 436 576 L 436 554" fill="none" stroke="#8be9fd" stroke-width="3.5" stroke-linecap="square"/>
+<!-- Cyan Corner Brackets DIRECTLY ON TOP OF BOX BORDER (Zero Gap) -->
+<path d="M 36 106 L 36 84 L 58 84" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
+<path d="M 414 84 L 436 84 L 436 106" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
+<path d="M 36 554 L 36 576 L 58 576" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
+<path d="M 414 576 L 436 576 L 436 554" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
 
-<!-- OFFICIAL DRACULA PARTICLES MORPHING ANIMATION LOOP -->
+<!-- SLEEK DARK PARTICLES MORPHING ANIMATION LOOP -->
 <g clip-path="url(#boxClip)">
-  <g transform="translate(50,86) scale(1.24,1.4471)" fill="#bd93f9" shape-rendering="crispEdges">
+  <g transform="translate(50,86) scale(1.24,1.4471)" fill="#A78BFA" shape-rendering="crispEdges">
     <!-- State 1: Shariar's Portrait -->
 <g><animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 68,-10; 68,-10; 68,-10; 68,-10; 0,0" keyTimes="0; 0.230; 0.333; 0.563; 0.667; 0.897; 1" dur="17.4s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .2 1; .4 0 .2 1; .4 0 .2 1; .4 0 .2 1; .4 0 .2 1; .4 0 .2 1"/><animate attributeName="opacity" values="1; 1; 0; 0; 0; 0; 1" keyTimes="0; 0.230; 0.333; 0.563; 0.667; 0.897; 1" dur="17.4s" repeatCount="indefinite"/><path d="M138 59h1v1h-1zM154 59h1v1h-1zM164 64h1v1h-1zM140 66h1v1h-1zM148 66h1v1h-1zM123 67h1v1h-1zM160 68h1v1h-1zM179 72h1v1h-1zM91 75h1v1h-1zM115 75h1v1h-1zM139 80h1v1h-1zM191 81h1v1h-1zM172 84h1v1h-1zM173 85h1v1h-1zM133 91h1v1h-1zM86 92h1v1h-1zM202 92h1v1h-1zM161 98h6v1h-6zM100 101h1v1h-1zM83 109h1v1h-1zM120 111h86v1h-86zM214 113h1v1h-1zM215 116h1v1h-1zM87 119h1v1h-1zM103 120h19v1h-19zM211 121h1v1h-1zM109 131h1v1h-1zM196 133h1v1h-1zM129 136h1v1h-1zM127 139h1v1h-1zM104 141h3v1h-3zM133 141h4v1h-4zM123 142h6v1h-6zM186 144h1v1h-1zM186 145h1v1h-1zM173 149h1v1h-1zM136 153h5v1h-5zM102 160h3v1h-3zM149 162h66v1h-66zM130 164h12v1h-12zM146 164h69v1h-69zM99 175h6v1h-6zM103 177h34v1h-34zM88 178h3v1h-3zM92 178h121v1h-121zM120 193h8v1h-8zM127 197h79v1h-79zM174 204h18v1h-18zM114 205h13v1h-13zM133 208h1v1h-1zM191 211h11v1h-11zM153 213h1v1h-1zM173 214h27v1h-27zM155 216h2v1h-2zM120 217h1v1h-1zM174 223h5v1h-5zM134 225h1v1h-1zM109 227h1v1h-1zM123 231h1v1h-1zM118 235h1v1h-1zM120 237h1v1h-1zM205 238h1v1h-1zM137 240h2v1h-2zM130 243h1v1h-1zM152 247h1v1h-1zM161 247h1v1h-1zM143 249h1v1h-1zM161 249h2v1h-2zM226 250h1v1h-1zM164 251h2v1h-2zM148 256h1v1h-1zM60 257h1v1h-1zM258 260h1v1h-1zM254 261h1v1h-1zM274 268h1v1h-1zM203 272h1v1h-1zM258 276h1v1h-1zM34 280h1v1h-1zM219 281h1v1h-1zM23 283h1v1h-1zM89 283h1v1h-1zM223 283h1v1h-1zM288 284h1v1h-1zM263 290h1v1h-1zM226 295h1v1h-1zM211 298h1v1h-1zM64 301h1v1h-1zM97 302h1v1h-1zM115 302h30v1h-30zM266 303h1v1h-1zM235 304h1v1h-1zM291 304h1v1h-1zM233 305h1v1h-1zM252 314h1v1h-1zM199 316h1v1h-1zM244 320h1v1h-1zM23 321h1v1h-1zM263 323h1v1h-1zM87 325h1v1h-1zM205 328h1v1h-1zM107 329h1v1h-1zM120 329h21v1h-21zM156 329h1v1h-1zM195 329h1v1h-1zM116 334h1v1h-1zM228 334h1v1h-1z"/></g>
 <g><animateTransform attributeName="transform" type="translate" values="0,0; 0,0; -46,35; -46,35; -46,35; -46,35; 0,0" keyTimes="0; 0.230; 0.333; 0.563; 0.667; 0.897; 1" dur="17.4s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .2 1; .4 0 .2 1; .4 0 .2 1; .4 0 .2 1; .4 0 .2 1; .4 0 .2 1"/><animate attributeName="opacity" values="1; 1; 0; 0; 0; 0; 1" keyTimes="0; 0.230; 0.333; 0.563; 0.667; 0.897; 1" dur="17.4s" repeatCount="indefinite"/><path d="M162 61h1v1h-1zM114 63h1v1h-1zM192 68h3v1h-3zM98 69h1v1h-1zM195 70h1v1h-1zM104 73h1v1h-1zM131 75h1v1h-1zM190 76h1v1h-1zM137 77h1v1h-1zM101 78h1v1h-1zM190 78h1v1h-1zM99 79h1v1h-1zM104 79h1v1h-1zM155 82h1v1h-1zM211 84h2v1h-2zM149 85h1v1h-1zM155 90h1v1h-1zM135 92h2v1h-2zM143 93h1v1h-1zM150 94h1v1h-1zM213 95h1v1h-1zM212 97h1v1h-1zM192 98h1v1h-1zM202 100h1v1h-1zM202 103h1v1h-1zM218 103h1v1h-1zM124 104h66v1h-66zM109 106h7v1h-7zM203 107h2v1h-2zM101 115h2v1h-2zM91 118h1v1h-1zM91 119h1v1h-1zM90 121h1v1h-1zM85 124h1v1h-1zM197 131h14v1h-14zM199 132h12v1h-12zM117 135h1v1h-1zM159 141h2v1h-2zM183 143h1v1h-1zM137 145h1v1h-1zM186 149h1v1h-1zM91 150h7v1h-7zM185 151h6v1h-6zM104 165h32v1h-32zM145 166h2v1h-2zM148 166h67v1h-67zM139 167h3v1h-3zM139 175h27v1h-27zM103 183h2v1h-2zM156 186h8v1h-8zM161 192h46v1h-46zM106 194h9v1h-9zM114 195h17v1h-17zM167 201h38v1h-38zM131 204h1v1h-1zM163 204h1v1h-1zM123 206h1v1h-1zM133 211h6v1h-6zM142 214h2v1h-2zM158 216h1v1h-1zM104 217h2v1h-2zM107 217h1v1h-1zM129 217h3v1h-3zM189 221h3v1h-3zM194 224h2v1h-2zM190 225h1v1h-1zM136 232h2v1h-2zM203 232h1v1h-1zM135 234h1v1h-1zM150 237h2v1h-2zM141 241h2v1h-2zM162 244h1v1h-1zM164 245h1v1h-1zM214 245h1v1h-1zM216 250h1v1h-1zM235 252h2v1h-2zM167 253h2v1h-2zM79 254h1v1h-1zM168 257h3v1h-3zM146 260h1v1h-1zM145 261h1v1h-1zM86 264h1v1h-1zM159 265h4v1h-4zM40 267h1v1h-1zM254 271h1v1h-1zM292 272h1v1h-1zM166 279h1v1h-1zM71 280h1v1h-1zM201 280h1v1h-1zM237 280h1v1h-1zM144 282h1v1h-1zM253 282h1v1h-1zM282 284h1v1h-1zM160 288h1v1h-1zM128 289h8v1h-8zM234 300h1v1h-1zM47 301h1v1h-1zM198 301h1v1h-1zM251 301h1v1h-1zM276 302h1v1h-1zM290 307h1v1h-1zM278 308h1v1h-1zM290 310h1v1h-1zM215 314h1v1h-1zM241 316h1v1h-1zM257 316h1v1h-1zM299 319h1v1h-1zM52 320h1v1h-1zM156 323h1v1h-1zM257 324h1v1h-1zM119 327h22v1h-22zM69 331h1v1h-1zM120 332h20v1h-20zM160 333h1v1h-1zM159 334h1v1h-1zM168 337h22v1h-22z"/></g>
@@ -180,64 +181,64 @@
   </g>
 </g>
 
-<!-- SYSTEM.INFO Header (Dracula Cyan #8be9fd) -->
-<text x="470" y="74" font-size="15" font-weight="700" letter-spacing="2" fill="#8be9fd">SYSTEM.INFO</text>
-<line x1="600" y1="70" x2="1061" y2="70" stroke="rgba(255,255,255,0.12)"/>
+<!-- SYSTEM.INFO Header (Larger font-size 15px bold cyan) -->
+<text x="470" y="74" font-size="15" font-weight="700" letter-spacing="2" fill="#22D3EE">SYSTEM.INFO</text>
+<line x1="600" y1="70" x2="1061" y2="70" stroke="rgba(255,255,255,0.10)"/>
 
-<!-- 1. BLINKING DRACULA RED • LIVE BADGE AT TOP RIGHT -->
-<text x="1125" y="74" text-anchor="end" font-size="12" fill="#ff5555" font-weight="700"><tspan>&#9679;</tspan> LIVE<animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></text>
+<!-- 1. BLINKING RED • LIVE BADGE AT TOP RIGHT -->
+<text x="1125" y="74" text-anchor="end" font-size="12" fill="#F87171" font-weight="700"><tspan>&#9679;</tspan> LIVE<animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></text>
 
 <!-- Email Pill Header -->
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6s" fill="freeze"/>
-<rect x="470" y="98" width="245" height="24" rx="4" fill="#6272a4"/>
-<text x="479" y="115" font-size="13" font-weight="700" fill="#f8f8f2">shariaralways@gmail.com</text>
-<line x1="725" y1="110" x2="1125" y2="110" stroke="rgba(255,255,255,0.12)"/>
+<rect x="470" y="98" width="245" height="24" rx="4" fill="#4C1D95"/>
+<text x="479" y="115" font-size="13" font-weight="700" fill="#E9D5FF">shariaralways@gmail.com</text>
+<line x1="725" y1="110" x2="1125" y2="110" stroke="rgba(255,255,255,0.10)"/>
 </g>
 
-<!-- Staggered Animated Data Rows (Official Dracula Colors) -->
+<!-- Staggered Animated Data Rows (font-size 13px) -->
 <g font-size="13" xml:space="preserve">
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.90s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="0.90s" fill="freeze"/><text x="470" y="142" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Subject </tspan><tspan fill="rgba(98, 114, 164, 0.45)">............................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> Shariar Ahamed</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.90s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="0.90s" fill="freeze"/><text x="470" y="142" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Subject </tspan><tspan fill="rgba(148,163,184,0.35)">............................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Shariar Ahamed</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.02s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.02s" fill="freeze"/><text x="470" y="165" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Role </tspan><tspan fill="rgba(98, 114, 164, 0.45)">.....................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> Full-Stack Developer</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.02s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.02s" fill="freeze"/><text x="470" y="165" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Role </tspan><tspan fill="rgba(148,163,184,0.35)">.....................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Full-Stack Developer</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.14s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.14s" fill="freeze"/><text x="470" y="188" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Origin </tspan><tspan fill="rgba(98, 114, 164, 0.45)">.....................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> Dhaka, Bangladesh</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.14s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.14s" fill="freeze"/><text x="470" y="188" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Origin </tspan><tspan fill="rgba(148,163,184,0.35)">.....................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Dhaka, Bangladesh</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.26s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.26s" fill="freeze"/><text x="470" y="211" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Education </tspan><tspan fill="rgba(98, 114, 164, 0.45)">..........................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> BSc in CSE</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.26s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.26s" fill="freeze"/><text x="470" y="211" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Education </tspan><tspan fill="rgba(148,163,184,0.35)">..........................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> BSc in CSE</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.38s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.38s" fill="freeze"/><text x="470" y="234" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Status </tspan><tspan fill="rgba(98, 114, 164, 0.45)">.........................................</tspan><tspan fill="#f8f8f2" font-weight="600"> Building + Learning + Shipping</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.38s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.38s" fill="freeze"/><text x="470" y="234" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Status </tspan><tspan fill="rgba(148,163,184,0.35)">.........................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Building + Learning + Shipping</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze"/><text x="470" y="257" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">ToolChain </tspan><tspan fill="rgba(98, 114, 164, 0.45)">.................................</tspan><tspan fill="#f8f8f2" font-weight="600"> VS Code, Git, Docker, Figma</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze"/><text x="470" y="257" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">ToolChain </tspan><tspan fill="rgba(148,163,184,0.35)">........................ scheme</tspan><tspan fill="#F8FAFC" font-weight="600"> VS Code, Git, Docker, Figma</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.72s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.72s" fill="freeze"/><text x="470" y="288" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Core.Lang </tspan><tspan fill="rgba(98, 114, 164, 0.45)">...................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> C++, Java, JavaScript, C</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.72s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.72s" fill="freeze"/><text x="470" y="288" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Core.Lang </tspan><tspan fill="rgba(148,163,184,0.35)">...................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> C++, Java, JavaScript, C</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.84s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.84s" fill="freeze"/><text x="470" y="311" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Core.Frontend </tspan><tspan fill="rgba(98, 114, 164, 0.45)">.........................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> HTML, CSS, Tailwind, React, Next.js</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.84s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.84s" fill="freeze"/><text x="470" y="311" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Core.Frontend </tspan><tspan fill="rgba(148,163,184,0.35)">.........................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> HTML, CSS, Tailwind, React, Next.js</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.96s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.96s" fill="freeze"/><text x="470" y="334" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Core.Backend </tspan><tspan fill="rgba(98, 114, 164, 0.45)">..........................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> Node.js, Express</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.96s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.96s" fill="freeze"/><text x="470" y="334" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Core.Backend </tspan><tspan fill="rgba(148,163,184,0.35)">..........................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Node.js, Express</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.08s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.08s" fill="freeze"/><text x="470" y="357" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Core.Database </tspan><tspan fill="rgba(98, 114, 164, 0.45)">...............................................</tspan><tspan fill="#f8f8f2" font-weight="600"> Firebase, MongoDB</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.08s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.08s" fill="freeze"/><text x="470" y="357" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Core.Database </tspan><tspan fill="rgba(148,163,184,0.35)">...............................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Firebase, MongoDB</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.20s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.20s" fill="freeze"/><text x="470" y="380" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Core.Infra </tspan><tspan fill="rgba(98, 114, 164, 0.45)">................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> Vercel, Docker, Git</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.20s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.20s" fill="freeze"/><text x="470" y="380" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Core.Infra </tspan><tspan fill="rgba(148,163,184,0.35)">................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> Vercel, Docker, Git</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.42s" fill="freeze"/><text x="470" y="411" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#6272a4">- Contact </tspan><tspan fill="rgba(98, 114, 164, 0.45)">---------------------------------------------------------------------</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.42s" fill="freeze"/><text x="470" y="411" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#94A3B8">- Contact </tspan><tspan fill="rgba(148,163,184,0.35)">---------------------------------------------------------------------</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.54s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.54s" fill="freeze"/><text x="470" y="434" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Grid.Mail </tspan><tspan fill="rgba(98, 114, 164, 0.45)">.........................................</tspan><tspan fill="#f8f8f2" font-weight="600"> shariaralways@gmail.com</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.54s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.54s" fill="freeze"/><text x="470" y="434" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Grid.Mail </tspan><tspan fill="rgba(148,163,184,0.35)">.........................................</tspan><tspan fill="#F8FAFC" font-weight="600"> shariaralways@gmail.com</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.66s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.66s" fill="freeze"/><text x="470" y="457" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Grid.Portfolio </tspan><tspan fill="rgba(98, 114, 164, 0.45)">....................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> shariarahamed.me</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.66s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.66s" fill="freeze"/><text x="470" y="457" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Grid.Portfolio </tspan><tspan fill="rgba(148,163,184,0.35)">....................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> shariarahamed.me</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.78s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.78s" fill="freeze"/><text x="470" y="480" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Grid.LinkedIn </tspan><tspan fill="rgba(98, 114, 164, 0.45)">............................................</tspan><tspan fill="#f8f8f2" font-weight="600"> shariarahamed</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.78s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.78s" fill="freeze"/><text x="470" y="480" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Grid.LinkedIn </tspan><tspan fill="rgba(148,163,184,0.35)">............................................</tspan><tspan fill="#F8FAFC" font-weight="600"> shariarahamed</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.90s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.90s" fill="freeze"/><text x="470" y="503" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Grid.GitHub </tspan><tspan fill="rgba(98, 114, 164, 0.45)">.........................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> @Shariar-Ahamed</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.90s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="2.90s" fill="freeze"/><text x="470" y="503" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Grid.GitHub </tspan><tspan fill="rgba(148,163,184,0.35)">.........................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> @Shariar-Ahamed</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.02s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="3.02s" fill="freeze"/><text x="470" y="526" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#8be9fd" font-weight="700">Grid.Facebook </tspan><tspan fill="rgba(98, 114, 164, 0.45)">......................................................</tspan><tspan fill="#f8f8f2" font-weight="600"> @shahriar.thebrowncat</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.02s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="3.02s" fill="freeze"/><text x="470" y="526" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE" font-weight="700">Grid.Facebook </tspan><tspan fill="rgba(148,163,184,0.35)">......................................................</tspan><tspan fill="#F8FAFC" font-weight="600"> @shahriar.thebrowncat</tspan></text></g>
 </g>
 
-<!-- 2. BLINKING DRACULA CYAN TERMINAL CURSOR AT BOTTOM PROMPT -->
+<!-- 2. BLINKING CYAN TERMINAL CURSOR AT BOTTOM PROMPT -->
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.34s" fill="freeze"/>
-<text x="470" y="567" font-size="13" fill="#6272a4">&#9656; More about me &amp; projects below in README &#8595; <tspan fill="#8be9fd">&#9608;<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+<text x="470" y="567" font-size="13" fill="#94A3B8">&#9656; More about me &amp; projects below in README &#8595; <tspan fill="#22D3EE">&#9608;<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
 </g>
 </g>
 
-<!-- OFFICIAL DRACULA MULTI-COLOR GRADIENT BORDER WITH GLOW FILTER -->
-<rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#draculaAccent)" stroke-width="3" opacity="0.65" filter="url(#glow8)"/>
-<rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#draculaAccent)" stroke-width="1.6"/>
+<!-- ANIMATED MULTI-COLOR GRADIENT BORDER WITH GLOW FILTER -->
+<rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.55" filter="url(#glow8)"/>
+<rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#accent)" stroke-width="1.6"/>
 </svg>

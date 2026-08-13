@@ -252,58 +252,32 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
     code_layers_xml = "\n".join(code_group_svgs)
 
-    # --- OFFICIAL DRACULA THEME COLOR PALETTE ---
-    # Background: #282a36 (Dracula BG)
-    # Darker Window Fill: #21222c (Dracula Darker)
-    # Selection / Header: #44475a (Dracula Selection)
-    # Text Primary: #f8f8f2 (Dracula White Foreground)
-    # Text Label / Cyan: #8be9fd (Dracula Cyan)
-    # Muted Blue-Gray: #6272a4 (Dracula Comment / Muted)
-    # Particles Purple: #bd93f9 (Official Dracula Purple)
-    # Badge Red: #ff5555 (Official Dracula Red)
-    # Green Accent: #50fa7b (Official Dracula Green)
-    
-    if is_dark:
-        bg_fill = "#282a36"         # Official Dracula Background
-        window_fill = "#21222c"     # Official Dracula Darker Window Base
-        panel_bg = "#282a36"        # Official Dracula Main Panel BG
-        header_fill = "#44475a"      # Official Dracula Header Bar
-        dot_color = "#bd93f9"        # Official Dracula Purple Particles
-        border_stroke = "rgba(139, 233, 253, 0.40)"  # Dracula Cyan Glow Border
-        text_primary = "#f8f8f2"     # Official Dracula White Text
-        text_label = "#8be9fd"       # Official Dracula Cyan Text
-        text_dim = "#6272a4"         # Official Dracula Comment Blue-Gray
-        text_gray = "#6272a4"        # Official Dracula Gray
-        dot_leader = "rgba(98, 114, 164, 0.45)"  # Dracula Muted Leader Dots
-        email_pill_bg = "#6272a4"    # Dracula Muted Pill BG
-        email_pill_text = "#f8f8f2"  # Dracula White Email Text
-        live_red = "#ff5555"         # Official Dracula Red
-    else:
-        bg_fill = "#FFFFFF"
-        window_fill = "#F1F5F9"
-        panel_bg = "#F8FAFC"
-        header_fill = "#E2E8F0"
-        dot_color = "#6272a4"
-        border_stroke = "rgba(8,145,178,0.3)"
-        text_primary = "#0F172A"
-        text_label = "#0284C7"
-        text_dim = "#64748B"
-        text_gray = "#64748B"
-        dot_leader = "#CBD5E1"
-        email_pill_bg = "#6272a4"
-        email_pill_text = "#FFFFFF"
-        live_red = "#E11D48"
+    # --- REVERTED BACK TO PREVIOUS SLEEK DARK THEME COLORS ---
+    dot_color = "#A78BFA" if is_dark else "#7C3AED"
+    bg_fill = "#0A101F" if is_dark else "#FFFFFF"
+    window_fill = "#070B16" if is_dark else "#F1F5F9"
+    panel_bg = "url(#panelGrad)" if is_dark else "#F8FAFC"
+    border_stroke = "rgba(34,211,238,0.35)" if is_dark else "rgba(8,145,178,0.3)"
+    text_primary = "#F8FAFC" if is_dark else "#0F172A"
+    text_label = "#22D3EE" if is_dark else "#0284C7"
+    text_dim = "#94A3B8" if is_dark else "#64748B"
+    text_gray = "#475569" if is_dark else "#64748B"
+    dot_leader = "rgba(148,163,184,0.35)" if is_dark else "#CBD5E1"
+    email_pill_bg = "#4C1D95" if is_dark else "#4C1D95"
+    email_pill_text = "#E9D5FF" if is_dark else "#E9D5FF"
+    live_red = "#F87171" if is_dark else "#E11D48"
 
     scale_x = 1.2400
     scale_y = 1.4471
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Shariar Ahamed — profile.sh --live">
 <defs>
-<linearGradient id="draculaAccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#bd93f9"><animate attributeName="stop-color" values="#bd93f9;#8be9fd;#50fa7b;#ff79c6;#bd93f9" dur="10s" repeatCount="indefinite"/></stop>
-      <stop offset="0.5" stop-color="#8be9fd"><animate attributeName="stop-color" values="#8be9fd;#50fa7b;#ff79c6;#bd93f9;#8be9fd" dur="10s" repeatCount="indefinite"/></stop>
-      <stop offset="1" stop-color="#50fa7b"><animate attributeName="stop-color" values="#50fa7b;#ff79c6;#bd93f9;#8be9fd;#50fa7b" dur="10s" repeatCount="indefinite"/></stop>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"><animate attributeName="stop-color" values="#7C3AED;#22D3EE;#10B981;#7C3AED" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="0.5" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#10B981;#7C3AED;#22D3EE" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#7C3AED;#22D3EE;#10B981" dur="10s" repeatCount="indefinite"/></stop>
     </linearGradient>
+<linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A101F"/><stop offset="1" stop-color="#0C1426"/></linearGradient>
 <filter id="glow8" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="8"/></filter>
 <filter id="glow3" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
 <clipPath id="winClip"><rect x="2" y="2" width="1176" height="606" rx="18"/></clipPath>
@@ -315,25 +289,25 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 <rect x="2" y="2" width="1176" height="606" rx="18" fill="{window_fill}"/>
 <g clip-path="url(#winClip)">
 <rect x="2" y="2" width="1176" height="606" fill="{panel_bg}"/>
-<rect x="2" y="2" width="1176" height="46" fill="{header_fill}"/>
-<line x1="2" y1="48" x2="1178" y2="48" stroke="rgba(255,255,255,0.12)"/>
-<circle cx="30" cy="25.0" r="5.5" fill="#ff5555"/>
-<circle cx="50" cy="25.0" r="5.5" fill="#f1fa8c"/>
-<circle cx="70" cy="25.0" r="5.5" fill="#50fa7b"/>
+<rect x="2" y="2" width="1176" height="46" fill="{'#0B1222' if is_dark else '#E2E8F0'}"/>
+<line x1="2" y1="48" x2="1178" y2="48" stroke="rgba(255,255,255,0.10)"/>
+<circle cx="30" cy="25.0" r="5.5" fill="#ff5f56"/>
+<circle cx="50" cy="25.0" r="5.5" fill="#ffbd2e"/>
+<circle cx="70" cy="25.0" r="5.5" fill="#27c93f"/>
 <text x="590.0" y="29.0" text-anchor="middle" font-size="12" fill="{text_dim}">shariaralways@gmail.com - % ./profile.sh --live</text>
 
-<!-- VISUAL.MAP Header (Dracula Comment Gray Color #6272a4) -->
+<!-- VISUAL.MAP Header (Subtle Gray Color #475569) -->
 <text x="38" y="74" font-size="11" font-weight="600" letter-spacing="3" fill="{text_gray}">VISUAL.MAP</text>
-<rect x="36" y="84" width="400" height="492" fill="none" stroke="#8be9fd" stroke-width="2" opacity="0.50" filter="url(#glow3)"/>
+<rect x="36" y="84" width="400" height="492" fill="none" stroke="#22D3EE" stroke-width="2" opacity="0.45" filter="url(#glow3)"/>
 <rect x="36" y="84" width="400" height="492" fill="{bg_fill}" stroke="{border_stroke}"/>
 
-<!-- Dracula Cyan Corner Brackets DIRECTLY ON TOP OF BOX BORDER (Zero Gap) -->
-<path d="M 36 106 L 36 84 L 58 84" fill="none" stroke="#8be9fd" stroke-width="3.5" stroke-linecap="square"/>
-<path d="M 414 84 L 436 84 L 436 106" fill="none" stroke="#8be9fd" stroke-width="3.5" stroke-linecap="square"/>
-<path d="M 36 554 L 36 576 L 58 576" fill="none" stroke="#8be9fd" stroke-width="3.5" stroke-linecap="square"/>
-<path d="M 414 576 L 436 576 L 436 554" fill="none" stroke="#8be9fd" stroke-width="3.5" stroke-linecap="square"/>
+<!-- Cyan Corner Brackets DIRECTLY ON TOP OF BOX BORDER (Zero Gap) -->
+<path d="M 36 106 L 36 84 L 58 84" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
+<path d="M 414 84 L 436 84 L 436 106" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
+<path d="M 36 554 L 36 576 L 58 576" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
+<path d="M 414 576 L 436 576 L 436 554" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
 
-<!-- OFFICIAL DRACULA PARTICLES MORPHING ANIMATION LOOP -->
+<!-- SLEEK DARK PARTICLES MORPHING ANIMATION LOOP -->
 <g clip-path="url(#boxClip)">
   <g transform="translate(50,86) scale({scale_x},{scale_y})" fill="{dot_color}" shape-rendering="crispEdges">
     <!-- State 1: Shariar's Portrait -->
@@ -347,21 +321,21 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
   </g>
 </g>
 
-<!-- SYSTEM.INFO Header (Dracula Cyan #8be9fd) -->
+<!-- SYSTEM.INFO Header (Larger font-size 15px bold cyan) -->
 <text x="470" y="74" font-size="15" font-weight="700" letter-spacing="2" fill="{text_label}">SYSTEM.INFO</text>
-<line x1="600" y1="70" x2="1061" y2="70" stroke="rgba(255,255,255,0.12)"/>
+<line x1="600" y1="70" x2="1061" y2="70" stroke="rgba(255,255,255,0.10)"/>
 
-<!-- 1. BLINKING DRACULA RED • LIVE BADGE AT TOP RIGHT -->
+<!-- 1. BLINKING RED • LIVE BADGE AT TOP RIGHT -->
 <text x="1125" y="74" text-anchor="end" font-size="12" fill="{live_red}" font-weight="700"><tspan>&#9679;</tspan> LIVE<animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></text>
 
 <!-- Email Pill Header -->
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6s" fill="freeze"/>
 <rect x="470" y="98" width="245" height="24" rx="4" fill="{email_pill_bg}"/>
 <text x="479" y="115" font-size="13" font-weight="700" fill="{email_pill_text}">shariaralways@gmail.com</text>
-<line x1="725" y1="110" x2="1125" y2="110" stroke="rgba(255,255,255,0.12)"/>
+<line x1="725" y1="110" x2="1125" y2="110" stroke="rgba(255,255,255,0.10)"/>
 </g>
 
-<!-- Staggered Animated Data Rows (Official Dracula Colors) -->
+<!-- Staggered Animated Data Rows (font-size 13px) -->
 <g font-size="13" xml:space="preserve">
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.90s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="0.90s" fill="freeze"/><text x="470" y="142" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">Subject </tspan><tspan fill="{dot_leader}">............................................................</tspan><tspan fill="{text_primary}" font-weight="600"> Shariar Ahamed</tspan></text></g>
 
@@ -373,7 +347,7 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.38s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.38s" fill="freeze"/><text x="470" y="234" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">Status </tspan><tspan fill="{dot_leader}">.........................................</tspan><tspan fill="{text_primary}" font-weight="600"> Building + Learning + Shipping</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze"/><text x="470" y="257" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">ToolChain </tspan><tspan fill="{dot_leader}">.................................</tspan><tspan fill="{text_primary}" font-weight="600"> VS Code, Git, Docker, Figma</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze"/><text x="470" y="257" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">ToolChain </tspan><tspan fill="{dot_leader}">........................ scheme</tspan><tspan fill="{text_primary}" font-weight="600"> VS Code, Git, Docker, Figma</tspan></text></g>
 
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.72s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.72s" fill="freeze"/><text x="470" y="288" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">Core.Lang </tspan><tspan fill="{dot_leader}">...................................................</tspan><tspan fill="{text_primary}" font-weight="600"> C++, Java, JavaScript, C</tspan></text></g>
 
@@ -398,20 +372,20 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.02s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="3.02s" fill="freeze"/><text x="470" y="526" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">Grid.Facebook </tspan><tspan fill="{dot_leader}">......................................................</tspan><tspan fill="{text_primary}" font-weight="600"> @shahriar.thebrowncat</tspan></text></g>
 </g>
 
-<!-- 2. BLINKING DRACULA CYAN TERMINAL CURSOR AT BOTTOM PROMPT -->
+<!-- 2. BLINKING CYAN TERMINAL CURSOR AT BOTTOM PROMPT -->
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="3.34s" fill="freeze"/>
-<text x="470" y="567" font-size="13" fill="#6272a4">&#9656; More about me &amp; projects below in README &#8595; <tspan fill="#8be9fd">&#9608;<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+<text x="470" y="567" font-size="13" fill="#94A3B8">&#9656; More about me &amp; projects below in README &#8595; <tspan fill="#22D3EE">&#9608;<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
 </g>
 </g>
 
-<!-- OFFICIAL DRACULA MULTI-COLOR GRADIENT BORDER WITH GLOW FILTER -->
-<rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#draculaAccent)" stroke-width="3" opacity="0.65" filter="url(#glow8)"/>
-<rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#draculaAccent)" stroke-width="1.6"/>
+<!-- ANIMATED MULTI-COLOR GRADIENT BORDER WITH GLOW FILTER -->
+<rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#accent)" stroke-width="3" opacity="0.55" filter="url(#glow8)"/>
+<rect x="3" y="3" width="1174" height="604" rx="17" fill="none" stroke="url(#accent)" stroke-width="1.6"/>
 </svg>'''
 
     with open(output_svg, 'w', encoding='utf-8') as f:
         f.write(svg_content)
-    print(f"{output_svg} generated with Official Dracula Theme Color Palette!")
+    print(f"{output_svg} generated with reverted original sleek dark theme colors!")
 
 if __name__ == '__main__':
     build_arif_style_svg('F_Formal.png', 'dark.svg', is_dark=True)
