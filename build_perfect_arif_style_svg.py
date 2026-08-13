@@ -11,40 +11,35 @@ def generate_kotlin_dots(grid_w=300, grid_h=340, is_dark=True):
     img = PIL.Image.new('L', (grid_w, grid_h), 0)
     draw = PIL.ImageDraw.Draw(img)
 
+    # Kotlin logo polygon coordinates in 300x340 space
     top_poly = [(160, 60), (220, 60), (120, 165), (70, 165)]
     bottom_poly = [(125, 175), (220, 270), (165, 270), (70, 175)]
     
-    draw.polygon(top_poly, fill=230)
-    draw.polygon(bottom_poly, fill=230)
+    draw.polygon(top_poly, fill=180)
+    draw.polygon(bottom_poly, fill=180)
 
-    img_blur = img.filter(PIL.ImageFilter.GaussianBlur(radius=1.5))
-    arr = np.array(img_blur, dtype=float)
+    np.random.seed(2026)
+    arr = np.array(img, dtype=float)
+    noise = np.random.uniform(0, 75, size=(grid_h, grid_w))
+    arr_noisy = np.clip(arr + noise, 0, 255)
 
-    for y in range(grid_h):
-        for x in range(grid_w):
-            old_val = arr[y, x]
-            new_val = 255.0 if old_val > 100 else 0.0
-            arr[y, x] = new_val
-            err = old_val - new_val
-            if x + 1 < grid_w:
-                arr[y, x + 1] += err * 7 / 16
-            if y + 1 < grid_h:
-                if x > 0:
-                    arr[y + 1, x - 1] += err * 3 / 16
-                arr[y + 1, x] += err * 5 / 16
-                if x + 1 < grid_w:
-                    arr[y + 1, x + 1] += err * 1 / 16
-
-    dots = (arr > 120) if is_dark else (arr <= 120)
+    dots = (arr_noisy > 170) if is_dark else (arr_noisy <= 170)
+    
+    # Grid mask for spacious, elegant tech dot texture (1px breathing room between dots)
+    grid_mask = np.zeros((grid_h, grid_w), dtype=bool)
+    grid_mask[::2, ::2] = True
+    grid_mask[1::2, 1::2] = True
+    
+    clean_dots = dots & grid_mask
     
     runs_by_row = []
     for y in range(grid_h):
         row_runs = []
         x = 0
         while x < grid_w:
-            if dots[y, x]:
+            if clean_dots[y, x]:
                 x_start = x
-                while x < grid_w and dots[y, x]:
+                while x < grid_w and clean_dots[y, x]:
                     x += 1
                 length = x - x_start
                 row_runs.append((x_start, y, length))
@@ -59,38 +54,31 @@ def generate_code_brackets_dots(grid_w=300, grid_h=340, is_dark=True):
     draw = PIL.ImageDraw.Draw(img)
 
     # Compact, wider, flattened < / > symbol coordinates
-    draw.polygon([(95, 125), (55, 170), (95, 215), (110, 205), (75, 170), (110, 135)], fill=230)
-    draw.polygon([(168, 110), (142, 230), (126, 230), (152, 110)], fill=230)
-    draw.polygon([(205, 125), (245, 170), (205, 215), (190, 205), (225, 170), (190, 135)], fill=230)
+    draw.polygon([(95, 125), (55, 170), (95, 215), (110, 205), (75, 170), (110, 135)], fill=180)
+    draw.polygon([(168, 110), (142, 230), (126, 230), (152, 110)], fill=180)
+    draw.polygon([(205, 125), (245, 170), (205, 215), (190, 205), (225, 170), (190, 135)], fill=180)
 
-    img_blur = img.filter(PIL.ImageFilter.GaussianBlur(radius=1.5))
-    arr = np.array(img_blur, dtype=float)
+    np.random.seed(2026)
+    arr = np.array(img, dtype=float)
+    noise = np.random.uniform(0, 75, size=(grid_h, grid_w))
+    arr_noisy = np.clip(arr + noise, 0, 255)
 
-    for y in range(grid_h):
-        for x in range(grid_w):
-            old_val = arr[y, x]
-            new_val = 255.0 if old_val > 100 else 0.0
-            arr[y, x] = new_val
-            err = old_val - new_val
-            if x + 1 < grid_w:
-                arr[y, x + 1] += err * 7 / 16
-            if y + 1 < grid_h:
-                if x > 0:
-                    arr[y + 1, x - 1] += err * 3 / 16
-                arr[y + 1, x] += err * 5 / 16
-                if x + 1 < grid_w:
-                    arr[y + 1, x + 1] += err * 1 / 16
-
-    dots = (arr > 120) if is_dark else (arr <= 120)
+    dots = (arr_noisy > 170) if is_dark else (arr_noisy <= 170)
+    
+    grid_mask = np.zeros((grid_h, grid_w), dtype=bool)
+    grid_mask[::2, ::2] = True
+    grid_mask[1::2, 1::2] = True
+    
+    clean_dots = dots & grid_mask
     
     runs_by_row = []
     for y in range(grid_h):
         row_runs = []
         x = 0
         while x < grid_w:
-            if dots[y, x]:
+            if clean_dots[y, x]:
                 x_start = x
-                while x < grid_w and dots[y, x]:
+                while x < grid_w and clean_dots[y, x]:
                     x += 1
                 length = x - x_start
                 row_runs.append((x_start, y, length))
@@ -200,7 +188,7 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
     portrait_layers_xml = "\n".join(portrait_group_svgs)
 
-    # --- 2. State 2: Kotlin Logo XML ---
+    # --- 2. State 2: Spacious Kotlin Logo XML ---
     kotlin_runs = generate_kotlin_dots(grid_w, grid_h, is_dark)
     kotlin_groups = [[] for _ in range(num_groups)]
     for run in kotlin_runs:
@@ -226,7 +214,7 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
     kotlin_layers_xml = "\n".join(kotlin_group_svgs)
 
-    # --- 3. State 3: Compact Code Brackets & Slash < / > XML ---
+    # --- 3. State 3: Spacious Compact Code Brackets & Slash < / > XML ---
     code_runs = generate_code_brackets_dots(grid_w, grid_h, is_dark)
     code_groups = [[] for _ in range(num_groups)]
     for run in code_runs:
@@ -252,7 +240,6 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
     code_layers_xml = "\n".join(code_group_svgs)
 
-    # --- REVERTED BACK TO PREVIOUS SLEEK DARK THEME COLORS ---
     dot_color = "#A78BFA" if is_dark else "#7C3AED"
     bg_fill = "#0A101F" if is_dark else "#FFFFFF"
     window_fill = "#070B16" if is_dark else "#F1F5F9"
@@ -308,16 +295,16 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 <path d="M 36 554 L 36 576 L 58 576" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
 <path d="M 414 576 L 436 576 L 436 554" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
 
-<!-- SLEEK DARK PARTICLES MORPHING ANIMATION LOOP -->
+<!-- SPACIOUS, LIGHTWEIGHT ELEGANT DOT PARTICLES MORPHING ANIMATION LOOP -->
 <g clip-path="url(#boxClip)">
   <g transform="translate(50,86) scale({scale_x},{scale_y})" fill="{dot_color}" shape-rendering="crispEdges">
     <!-- State 1: Shariar's Portrait -->
 {portrait_layers_xml}
     
-    <!-- State 2: Kotlin Logo Symbol < -->
+    <!-- State 2: Spacious Kotlin Logo Symbol < -->
 {kotlin_layers_xml}
 
-    <!-- State 3: Compact Code Brackets & Slash Symbol < / > -->
+    <!-- State 3: Spacious Compact Code Brackets & Slash Symbol < / > -->
 {code_layers_xml}
   </g>
 </g>
@@ -386,7 +373,7 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
     with open(output_svg, 'w', encoding='utf-8') as f:
         f.write(svg_content)
-    print(f"{output_svg} generated with reverted original sleek dark theme colors!")
+    print(f"{output_svg} generated with spacious, elegant dot-matrix texture!")
 
 if __name__ == '__main__':
     build_arif_style_svg('F_Formal.png', 'dark.svg', is_dark=True)
