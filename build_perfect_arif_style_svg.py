@@ -15,17 +15,20 @@ def generate_kotlin_dots(grid_w=300, grid_h=340, is_dark=True):
     top_poly = [(160, 60), (220, 60), (120, 165), (70, 165)]
     bottom_poly = [(125, 175), (220, 270), (165, 270), (70, 175)]
     
-    draw.polygon(top_poly, fill=180)
-    draw.polygon(bottom_poly, fill=180)
+    draw.polygon(top_poly, fill=190)
+    draw.polygon(bottom_poly, fill=190)
+
+    # Blur to round all sharp corners & smooth edges
+    img_smooth = img.filter(PIL.ImageFilter.GaussianBlur(radius=2.2))
 
     np.random.seed(2026)
-    arr = np.array(img, dtype=float)
+    arr = np.array(img_smooth, dtype=float)
     noise = np.random.uniform(0, 75, size=(grid_h, grid_w))
     arr_noisy = np.clip(arr + noise, 0, 255)
 
-    dots = (arr_noisy > 170) if is_dark else (arr_noisy <= 170)
+    dots = (arr_noisy > 165) if is_dark else (arr_noisy <= 165)
     
-    # Grid mask for spacious, elegant tech dot texture (1px breathing room between dots)
+    # Grid mask for spacious, elegant tech dot texture
     grid_mask = np.zeros((grid_h, grid_w), dtype=bool)
     grid_mask[::2, ::2] = True
     grid_mask[1::2, 1::2] = True
@@ -53,17 +56,35 @@ def generate_code_brackets_dots(grid_w=300, grid_h=340, is_dark=True):
     img = PIL.Image.new('L', (grid_w, grid_h), 0)
     draw = PIL.ImageDraw.Draw(img)
 
-    # Compact, wider, flattened < / > symbol coordinates
-    draw.polygon([(95, 125), (55, 170), (95, 215), (110, 205), (75, 170), (110, 135)], fill=180)
-    draw.polygon([(168, 110), (142, 230), (126, 230), (152, 110)], fill=180)
-    draw.polygon([(205, 125), (245, 170), (205, 215), (190, 205), (225, 170), (190, 135)], fill=180)
+    # Smooth rounded < / > symbol with rounded end-caps and curved corners
+    cap_r = 11
+
+    # Left bracket <
+    draw.line([(100, 130), (62, 170), (100, 210)], fill=190, width=22, joint='curve')
+    draw.ellipse([100-cap_r, 130-cap_r, 100+cap_r, 130+cap_r], fill=190)
+    draw.ellipse([62-cap_r, 170-cap_r, 62+cap_r, 170+cap_r], fill=190)
+    draw.ellipse([100-cap_r, 210-cap_r, 100+cap_r, 210+cap_r], fill=190)
+
+    # Slash /
+    draw.line([(145, 225), (165, 115)], fill=190, width=22, joint='curve')
+    draw.ellipse([145-cap_r, 225-cap_r, 145+cap_r, 225+cap_r], fill=190)
+    draw.ellipse([165-cap_r, 115-cap_r, 165+cap_r, 115+cap_r], fill=190)
+
+    # Right bracket >
+    draw.line([(200, 130), (238, 170), (200, 210)], fill=190, width=22, joint='curve')
+    draw.ellipse([200-cap_r, 130-cap_r, 200+cap_r, 130+cap_r], fill=190)
+    draw.ellipse([238-cap_r, 170-cap_r, 238+cap_r, 170+cap_r], fill=190)
+    draw.ellipse([200-cap_r, 210-cap_r, 200+cap_r, 210+cap_r], fill=190)
+
+    # Gaussian blur to produce smooth rounded antialiased contours
+    img_smooth = img.filter(PIL.ImageFilter.GaussianBlur(radius=1.8))
 
     np.random.seed(2026)
-    arr = np.array(img, dtype=float)
+    arr = np.array(img_smooth, dtype=float)
     noise = np.random.uniform(0, 75, size=(grid_h, grid_w))
     arr_noisy = np.clip(arr + noise, 0, 255)
 
-    dots = (arr_noisy > 170) if is_dark else (arr_noisy <= 170)
+    dots = (arr_noisy > 165) if is_dark else (arr_noisy <= 165)
     
     grid_mask = np.zeros((grid_h, grid_w), dtype=bool)
     grid_mask[::2, ::2] = True
@@ -188,7 +209,7 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
     portrait_layers_xml = "\n".join(portrait_group_svgs)
 
-    # --- 2. State 2: Spacious Kotlin Logo XML ---
+    # --- 2. State 2: Smooth Rounded Kotlin Logo XML ---
     kotlin_runs = generate_kotlin_dots(grid_w, grid_h, is_dark)
     kotlin_groups = [[] for _ in range(num_groups)]
     for run in kotlin_runs:
@@ -214,7 +235,7 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
     kotlin_layers_xml = "\n".join(kotlin_group_svgs)
 
-    # --- 3. State 3: Spacious Compact Code Brackets & Slash < / > XML ---
+    # --- 3. State 3: Smooth Rounded Code Brackets & Slash < / > XML ---
     code_runs = generate_code_brackets_dots(grid_w, grid_h, is_dark)
     code_groups = [[] for _ in range(num_groups)]
     for run in code_runs:
@@ -295,16 +316,16 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 <path d="M 36 554 L 36 576 L 58 576" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
 <path d="M 414 576 L 436 576 L 436 554" fill="none" stroke="#22D3EE" stroke-width="3.5" stroke-linecap="square"/>
 
-<!-- SPACIOUS, LIGHTWEIGHT ELEGANT DOT PARTICLES MORPHING ANIMATION LOOP -->
+<!-- SMOOTH ROUNDED CAPS & CURVED CORNERS PARTICLES MORPHING ANIMATION LOOP -->
 <g clip-path="url(#boxClip)">
   <g transform="translate(50,86) scale({scale_x},{scale_y})" fill="{dot_color}" shape-rendering="crispEdges">
     <!-- State 1: Shariar's Portrait -->
 {portrait_layers_xml}
     
-    <!-- State 2: Spacious Kotlin Logo Symbol < -->
+    <!-- State 2: Smooth Rounded Kotlin Logo Symbol < -->
 {kotlin_layers_xml}
 
-    <!-- State 3: Spacious Compact Code Brackets & Slash Symbol < / > -->
+    <!-- State 3: Smooth Rounded Code Brackets & Slash Symbol < / > -->
 {code_layers_xml}
   </g>
 </g>
@@ -335,11 +356,11 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.38s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.38s" fill="freeze"/><text x="470" y="234" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">Status </tspan><tspan fill="{dot_leader}">.........................................</tspan><tspan fill="{text_primary}" font-weight="600"> Building + Learning + Shipping</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze"/><text x="470" y="257" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">ToolChain </tspan><tspan fill="{dot_leader}">.................................</tspan><tspan fill="{text_primary}" font-weight="600"> VS Code, Antigravity, Git, Docker, Figma</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.50s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.50s" fill="freeze"/><text x="470" y="257" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">ToolChain </tspan><tspan fill="{dot_leader}">........................ scheme</tspan><tspan fill="{text_primary}" font-weight="600"> VS Code, Antigravity, Git, Docker, Figma</tspan></text></g>
 
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.72s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.72s" fill="freeze"/><text x="470" y="288" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">Core.Lang </tspan><tspan fill="{dot_leader}">...................................................</tspan><tspan fill="{text_primary}" font-weight="600"> C++, Java, JavaScript, C</tspan></text></g>
 
-  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.84s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.84s" fill="freeze"/><text x="470" y="311" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">Core.Frontend </tspan><tspan fill="{dot_leader}">.........................................................</tspan><tspan fill="{text_primary}" font-weight="600"> HTML, CSS, Tailwind, React, Next.js</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.84s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.84s" fill="freeze"/><text x="470" y="311" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">Core.Frontend </tspan><tspan fill="{dot_leader}">................................................ me</tspan><tspan fill="{text_primary}" font-weight="600"> HTML, CSS, Tailwind, React, Next.js</tspan></text></g>
 
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.96s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="-8 0;0 0" dur="0.4s" begin="1.96s" fill="freeze"/><text x="470" y="334" font-size="13" textLength="655" lengthAdjust="spacingAndGlyphs"><tspan fill="{text_label}" font-weight="700">Core.Backend </tspan><tspan fill="{dot_leader}">..........................................................</tspan><tspan fill="{text_primary}" font-weight="600"> Node.js, Express</tspan></text></g>
 
@@ -373,7 +394,7 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
     with open(output_svg, 'w', encoding='utf-8') as f:
         f.write(svg_content)
-    print(f"{output_svg} generated with spacious, elegant dot-matrix texture!")
+    print(f"{output_svg} generated with smooth rounded caps and curved corners!")
 
 if __name__ == '__main__':
     build_arif_style_svg('F_Formal.png', 'dark.svg', is_dark=True)
