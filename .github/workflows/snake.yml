@@ -24,10 +24,25 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          
+          # =========================================================================
+          # [OPTION A - ACTIVE]: Save directly to root directory & commit to 'main'
+          # =========================================================================
           outputs: |
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
 
+          # =========================================================================
+          # [OPTION B - COMMENTED OUT]: Save to 'dist' & deploy to 'output' branch
+          # To use Option B in future, uncomment lines below and comment out Option A:
+          # =========================================================================
+          # outputs: |
+          #   dist/github-contribution-grid-snake.svg
+          #   dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # =========================================================================
+      # [OPTION A - ACTIVE]: Commit and push directly to 'main' branch
+      # =========================================================================
       - name: Commit and push changes directly to main branch
         run: |
           git config --global user.name "github-actions[bot]"
@@ -39,3 +54,15 @@ jobs:
             git commit -m "chore(snake): auto update contribution snake animation [skip ci]"
             git push origin main
           fi
+
+      # =========================================================================
+      # [OPTION B - COMMENTED OUT]: Deploy to dedicated 'output' branch
+      # To use Option B in future, uncomment lines below and comment out Option A:
+      # =========================================================================
+      # - name: Deploy snake SVG to output branch
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./dist
+      #     publish_branch: output
+      #     force_orphan: true
