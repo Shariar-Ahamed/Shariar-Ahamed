@@ -227,6 +227,13 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=282a36&color=f8f8f2&line=bd93f9&point=ff79c6&area=true&hide_border=true" width="800" alt="Activity Graph"/>
 </p>
 
+<!-- Snake Contribution Grid Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shariar-Ahamed/Shariar-Ahamed/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shariar-Ahamed/Shariar-Ahamed/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/Shariar-Ahamed/Shariar-Ahamed/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
 <hr />
 
 <h2>🌐 Connect with Me</h2>
