@@ -262,6 +262,7 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
     code_layers_xml = "\n".join(code_group_svgs)
 
     dot_color = "#A78BFA" if is_dark else "#7C3AED"
+    portrait_dot_color = "#F8FAFC" if is_dark else "#0F172A"
     bg_fill = "#0A101F" if is_dark else "#FFFFFF"
     window_fill = "#070B16" if is_dark else "#F1F5F9"
     panel_bg = "url(#panelGrad)" if is_dark else "#F8FAFC"
@@ -318,15 +319,21 @@ def build_arif_style_svg(input_photo='F_Formal.png', output_svg='dark.svg', is_d
 
 <!-- SMOOTH ROUNDED CAPS & CURVED CORNERS PARTICLES MORPHING ANIMATION LOOP -->
 <g clip-path="url(#boxClip)">
-  <g transform="translate(50,86) scale({scale_x},{scale_y})" fill="{dot_color}" shape-rendering="crispEdges">
-    <!-- State 1: Shariar's Portrait -->
+  <g transform="translate(50,86) scale({scale_x},{scale_y})" shape-rendering="crispEdges">
+    <!-- State 1: Shariar's Portrait (Crisp White #F8FAFC) -->
+    <g fill="{portrait_dot_color}">
 {portrait_layers_xml}
+    </g>
     
-    <!-- State 2: Smooth Rounded Kotlin Logo Symbol < -->
+    <!-- State 2: Smooth Rounded Kotlin Logo Symbol < (Purple #A78BFA) -->
+    <g fill="{dot_color}">
 {kotlin_layers_xml}
+    </g>
 
-    <!-- State 3: Smooth Rounded Code Brackets & Slash Symbol < / > -->
+    <!-- State 3: Smooth Rounded Code Brackets & Slash Symbol < / > (Purple #A78BFA) -->
+    <g fill="{dot_color}">
 {code_layers_xml}
+    </g>
   </g>
 </g>
 
