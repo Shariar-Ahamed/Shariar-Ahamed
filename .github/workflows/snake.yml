@@ -31,6 +31,8 @@ jobs:
           outputs: |
             github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
           # =========================================================================
           # [OPTION B - COMMENTED OUT]: Save to 'dist' & deploy to 'output' branch
