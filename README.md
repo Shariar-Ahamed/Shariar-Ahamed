@@ -6,10 +6,10 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=2">
-    <!-- <source media="(prefers-color-scheme: light)" srcset="light.svg?v=2"> -->
-    <source media="(prefers-color-scheme: light)" srcset="dark.svg?v=2">
-    <img alt="Shariar Ahamed Profile" src="dark.svg?v=2" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=3">
+    <!-- <source media="(prefers-color-scheme: light)" srcset="light.svg?v=3"> -->
+    <source media="(prefers-color-scheme: light)" srcset="dark.svg?v=3">
+    <img alt="Shariar Ahamed Profile" src="dark.svg?v=3" width="100%">
   </picture>
 </p>
 
