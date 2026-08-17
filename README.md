@@ -229,7 +229,7 @@
 
 <!-- Snake Contribution Grid Animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake.svg">
   <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg">
   <img alt="Snake animation" src="github-contribution-grid-snake.svg" width="100%" />
 </picture>
