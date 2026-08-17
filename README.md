@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Shariar-Ahamed&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Shariar-Ahamed&label=PROFILE+VIEWS&color=7c3aed&label_color=0b1222&style=flat" alt="Profile Views" />
 </p>
 
 <hr />
