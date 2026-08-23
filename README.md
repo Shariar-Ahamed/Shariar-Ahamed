@@ -200,14 +200,14 @@
   <img src="https://streak-stats.demolab.com/?user=shariar-ahamed&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D&ring=eb8402&fire=eb8402&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&currStreakLabel=eb8402&border=ffffff" alt="GitHub Streak" />
 </p>
 
-<!-- Summary Cards (optional, might not render inline) -->
-<p>
+<!-- Summary Cards -->
+<p align="left">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shariar-ahamed&theme=dracula" width="600" alt="Summary Cards"/>
 </p>
 
-<!-- Activity Graph (Dracula Style) -->
-<p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=282a36&color=f8f8f2&line=bd93f9&point=ff79c6&area=true&hide_border=true" width="800" alt="Activity Graph"/>
+<!-- Activity Graph -->
+<p align="left">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=282a36&color=f8f8f2&line=bd93f9&point=ff79c6&area=true&hide_border=false" width="800" alt="Activity Graph"/>
 </p>
 
 <!-- Snake Contribution Grid Animation -->
