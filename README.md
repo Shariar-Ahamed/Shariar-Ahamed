@@ -144,7 +144,7 @@
 <!-- WakaTime GitHub Stats -->
 <p>
   <a href="https://wakatime.com/@ShariarAlways">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2" alt="WakaTime Stats" />
+    <img src="https://github-readme-stats.shion.dev/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&title_color=ffffff" alt="WakaTime Stats" />
   </a>
 </p>
 
