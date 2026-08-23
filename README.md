@@ -191,30 +191,13 @@
   <img src="https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
 </p>
 
-<!-- Top Languages 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight" width="300" alt="Top Languages"/>
-</p>
--->
-
-<!-- Top Languages -->
-<p>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shariar-Ahamed&layout=compact&theme=tokyonight&count_private=true" width="350" alt="Top Languages"/>
-</p>
-
-<!-- GitHub Stats
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" width="400" alt="GitHub Stats"/>
-</p> -->
-
-<!-- GitHub Stats -->
-<p>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shariar-Ahamed&show_icons=true&count_private=true&theme=tokyonight" width="400" alt="GitHub Stats"/>
-</p>
-
-<!-- Total Contributions, Current Streak, Longest Streak -->
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=shariar-ahamed&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D&ring=eb8402&fire=eb8402&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&currStreakLabel=eb8402&border=ffffff" alt="GitHub Streak" />
+<!-- GitHub Stats, Streak & Top Languages -->
+<p align="left">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Shariar-Ahamed&theme=tokyonight&title_color=ffffff&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Most Used Languages" />
+  <br/><br/>
+  <img src="https://github-readme-stats.shion.dev/api?username=Shariar-Ahamed&theme=tokyonight&title_color=ffffff&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <br/><br/>
+  <img src="https://streak-stats.demolab.com/?user=shariar-ahamed&theme=tokyonight&date_format=M%20j%5B%2C%20Y%5D&ring=eb8402&fire=eb8402&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&currStreakLabel=eb8402&border=ffffff" alt="GitHub Streak" />
 </p>
 
 <!-- Summary Cards (optional, might not render inline) -->
