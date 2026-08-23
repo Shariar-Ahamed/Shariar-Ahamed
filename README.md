@@ -162,7 +162,7 @@
 
 <p align="left">
   <img 
-    src="https://wakatime.com/share/@ShariarAlways/3964f748-d78d-478b-90ce-de4d251cb6b3.svg" 
+    src="https://wakatime.com/share/@ShariarAlways/04aecb04-e8cd-47f1-99be-83b4fa0bd768.svg" 
     width="500px" 
     height="400px" 
     alt="WakaTime Stats"
