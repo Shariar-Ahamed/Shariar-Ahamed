@@ -55,13 +55,6 @@ jobs:
         run: |
           python scripts/generate_github_stats.py
 
-      - name: Generate GitHub streak stats SVG
-        continue-on-error: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python scripts/generate_streak_stats.py
-
       # =========================================================================
       # [OPTION A - ACTIVE]: Commit and push directly to 'main' branch
       # =========================================================================
@@ -73,7 +66,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in SVGs to commit."
           else
-            git commit -m "chore(stats): auto update contribution snake, activity graph, top langs, stats & streak [skip ci]"
+            git commit -m "chore(stats): auto update contribution snake, activity graph, top langs & github stats [skip ci]"
             git push origin main
           fi
 

@@ -26,13 +26,11 @@ def format_date_range(start_str, end_str):
         return f"{start_str} - {end_str}"
 
 def fetch_streak_data(username="Shariar-Ahamed", token=None):
-    # Fetch from GitHub HTML contributions calendar
     url = f"https://github.com/users/{username}/contributions"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     
     total_commits_all_time = "2,647"
     try:
-        # Check all-time commits from shion.dev / github stats
         stats_url = f"https://github-readme-stats.shion.dev/api?username={username}&include_all_commits=true&count_private=true"
         stats_req = urllib.request.Request(stats_url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(stats_req, timeout=5) as res:
@@ -66,7 +64,6 @@ def fetch_streak_data(username="Shariar-Ahamed", token=None):
             if not sorted_dates:
                 return FALLBACK_STREAK
 
-            # Calculate all streak periods
             streaks = []
             cur_s = 0
             s_start = None
@@ -85,10 +82,8 @@ def fetch_streak_data(username="Shariar-Ahamed", token=None):
             if cur_s > 0:
                 streaks.append((cur_s, s_start, sorted_dates[-1]))
 
-            # Longest streak
             longest_streak, l_start, l_end = max(streaks, key=lambda x: x[0]) if streaks else (56, "2026-05-10", "2026-07-04")
             
-            # Current streak (if active on today or yesterday)
             current_streak = 0
             current_start = ""
             current_end = ""
@@ -116,26 +111,18 @@ def generate_svg(streak_data, output_path="assets/streak-stats.svg"):
     width = 495
     height = 195
     
-    # Flame vector icon
-    flame_icon = '''<path d="M12 2c-.3 0-.6.1-.8.4C9.5 4.5 7 8 7 12c0 3.3 2.7 6 6 6s6-2.7 6-6c0-3-1.5-6.5-3.2-8.6-.2-.3-.5-.4-.8-.4s-.6.1-.8.4C13.2 4.4 12.3 5.7 12 7c-.3-1.3-1.2-2.6-2.2-3.6-.2-.3-.5-.4-.8-.4z" fill="#eb8402"/>'''
-
+    # Official streak-stats flame icon and notched ring
+    # Ring radius = 40. Top gap from -12px to +12px where flame sits
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">
-  <defs>
-    <!-- Fire Ring Glow -->
-    <filter id="fire-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#eb8402" flood-opacity="0.6"/>
-    </filter>
-  </defs>
-
   <!-- Card Background (Dracula Theme matching github-stats.svg) -->
   <rect width="{width}" height="{height}" rx="10" fill="#282a36" stroke="#44475a" stroke-width="1.2"/>
 
   <!-- Left Column: Total Contributions -->
-  <g transform="translate(85, 0)">
+  <g transform="translate(88, 0)">
     <text x="0" y="78" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800">
       {streak_data['total_contributions']}
     </text>
-    <text x="0" y="112" text-anchor="middle" fill="#f8f8f2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">
+    <text x="0" y="112" text-anchor="middle" fill="#f8f8f2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600">
       Total Contributions
     </text>
     <text x="0" y="142" text-anchor="middle" fill="#80cbc4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
@@ -144,45 +131,45 @@ def generate_svg(streak_data, output_path="assets/streak-stats.svg"):
   </g>
 
   <!-- Vertical Divider 1 -->
-  <line x1="170" y1="35" x2="170" y2="160" stroke="#44475a" stroke-width="1.2"/>
+  <line x1="172" y1="36" x2="172" y2="160" stroke="#44475a" stroke-width="1.2"/>
 
   <!-- Center Column: Current Streak -->
   <g transform="translate(247.5, 0)">
-    <!-- Fire Flame Ring -->
-    <g transform="translate(0, 72)">
-      <!-- Outer Orange Circle -->
-      <circle cx="0" cy="0" r="36" fill="none" stroke="#eb8402" stroke-width="4.5" filter="url(#fire-glow)"/>
+    <!-- Fire Flame Ring with Top Opening -->
+    <g transform="translate(0, 68)">
+      <!-- Open Circular Arc (radius 40, leaving notch at top for the flame) -->
+      <path d="M 12.5 -38 A 40 40 0 1 1 -12.5 -38" fill="none" stroke="#eb8402" stroke-width="4.5" stroke-linecap="round"/>
       
-      <!-- Top Flame Icon -->
-      <g transform="translate(-8, -44) scale(0.68)">
-        {flame_icon}
+      <!-- Big, Clear Fire Flame Icon Sitting in the Top Notch -->
+      <g transform="translate(0, -40)">
+        <path d="M 0 -13 C 2.5 -8, 9 -4, 9 3.5 C 9 9, 5 13, 0 13 C -5 13, -9 9, -9 3.5 C -9 -4, -2.5 -8, 0 -13 Z M 0 -1 C 1.2 1.5, 4 3, 4 6 C 4 8.2, 2.2 10, 0 10 C -2.2 10, -4 8.2, -4 6 C -4 3, -1.2 1.5, 0 -1 Z" fill="#eb8402"/>
       </g>
 
       <!-- Center Streak Number -->
-      <text x="0" y="9" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800">
+      <text x="0" y="10" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="30" font-weight="800">
         {streak_data['current_streak']}
       </text>
     </g>
 
     <!-- Subtitle: Current Streak -->
-    <text x="0" y="132" text-anchor="middle" fill="#eb8402" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700">
+    <text x="0" y="134" text-anchor="middle" fill="#eb8402" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="700">
       Current Streak
     </text>
     <!-- Date Range -->
-    <text x="0" y="156" text-anchor="middle" fill="#80cbc4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
+    <text x="0" y="158" text-anchor="middle" fill="#80cbc4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
       {streak_data['current_range']}
     </text>
   </g>
 
   <!-- Vertical Divider 2 -->
-  <line x1="325" y1="35" x2="325" y2="160" stroke="#44475a" stroke-width="1.2"/>
+  <line x1="323" y1="36" x2="323" y2="160" stroke="#44475a" stroke-width="1.2"/>
 
   <!-- Right Column: Longest Streak -->
-  <g transform="translate(410, 0)">
+  <g transform="translate(407, 0)">
     <text x="0" y="78" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800">
       {streak_data['longest_streak']}
     </text>
-    <text x="0" y="112" text-anchor="middle" fill="#f8f8f2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">
+    <text x="0" y="112" text-anchor="middle" fill="#f8f8f2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600">
       Longest Streak
     </text>
     <text x="0" y="142" text-anchor="middle" fill="#80cbc4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
@@ -193,7 +180,7 @@ def generate_svg(streak_data, output_path="assets/streak-stats.svg"):
 '''
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(svg_content)
-    print(f"Generated {output_path} successfully!")
+    print(f"Generated {output_path} matching exact reference design successfully!")
 
 if __name__ == "__main__":
     token = os.environ.get("GITHUB_TOKEN")
