@@ -231,3 +231,4 @@ if __name__ == "__main__":
     token = os.environ.get("GITHUB_TOKEN")
     data = fetch_contributions("Shariar-Ahamed", token=token)
     generate_svg(data, "activity-graph.svg")
+
