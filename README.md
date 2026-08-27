@@ -174,11 +174,15 @@
 <h2>📈 GitHub Stats & Activity</h2>
 
 
-<!-- GitHub Stats, Streak & Top Languages -->
+<!-- Top Languages -->
+<!-- 
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Shariar-Ahamed&theme=tokyonight&bg_color=282a36&title_color=ffffff&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Most Used Languages" /> 
+-->
 <p align="left">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Shariar-Ahamed&theme=tokyonight&bg_color=282a36&title_color=ffffff&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Most Used Languages" />
+  <img src="top-langs.svg" width="350" alt="Most Used Languages" />
   <br/><br/>
-  <img src="https://github-readme-stats.shion.dev/api?username=Shariar-Ahamed&theme=tokyonight&bg_color=282a36&title_color=ffffff&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <!-- <img src="https://github-readme-stats.shion.dev/api?username=Shariar-Ahamed&theme=tokyonight&bg_color=282a36&title_color=ffffff&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" /> -->
+  <img src="github-stats.svg" width="495" alt="GitHub Stats" />
   <br/><br/>
   <img src="https://streak-stats.demolab.com/?user=shariar-ahamed&theme=tokyonight&background=282a36&date_format=M%20j%5B%2C%20Y%5D&ring=eb8402&fire=eb8402&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&currStreakLabel=eb8402&border=ffffff" alt="GitHub Streak" />
 </p>
@@ -189,8 +193,13 @@
 </p>
 
 <!-- Activity Graph -->
+<!-- 
 <p align="left">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shariar-Ahamed&bg_color=282a36&color=f8f8f2&line=bd93f9&point=ff79c6&area=true&hide_border=false" width="800" alt="Activity Graph"/>
+</p> 
+-->
+<p align="left">
+  <img src="activity-graph.svg" width="800" alt="Activity Graph"/>
 </p>
 
 <!-- Snake Contribution Grid Animation -->

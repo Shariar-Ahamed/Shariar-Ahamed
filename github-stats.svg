@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none">
+  <defs>
+    <filter id="emerald-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#50fa7b" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Card Background (Dracula Theme matching standard 495x195) -->
+  <rect width="495" height="195" rx="10" fill="#282a36" stroke="#44475a" stroke-width="1"/>
+
+  <!-- Card Title -->
+  <text x="25" y="34" fill="#ff79c6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" letter-spacing="0.5px">
+    REPOSITORY ANALYTICS
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="25" y1="46" x2="265" y2="46" stroke="#383a59" stroke-width="1" />
+
+  <!-- Left Stats Rows (Ending at x=250 with 110px space before A++) -->
+  <g>
+    
+    <g transform="translate(25, 66.0)">
+      <g transform="translate(0, -10)">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="#f1fa8c" stroke="#f1fa8c" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      </g>
+      <text x="22" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Total Stars Earned:
+      </text>
+      <text x="250" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="end">
+        39
+      </text>
+    </g>
+    <g transform="translate(25, 87.0)">
+      <g transform="translate(0, -10)">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#50fa7b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="1.5" y1="12" x2="8" y2="12"/><line x1="16" y1="12" x2="22.5" y2="12"/></svg>
+      </g>
+      <text x="22" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Total Commits:
+      </text>
+      <text x="250" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="end">
+        2975
+      </text>
+    </g>
+    <g transform="translate(25, 108.0)">
+      <g transform="translate(0, -10)">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#8be9fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><line x1="6" y1="9" x2="6" y2="21"/></svg>
+      </g>
+      <text x="22" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Total PRs:
+      </text>
+      <text x="250" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="end">
+        1
+      </text>
+    </g>
+    <g transform="translate(25, 129.0)">
+      <g transform="translate(0, -10)">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#ffb86c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      </g>
+      <text x="22" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Total Issues:
+      </text>
+      <text x="250" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="end">
+        0
+      </text>
+    </g>
+    <g transform="translate(25, 150.0)">
+      <g transform="translate(0, -10)">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="#38bdf8" stroke="#38bdf8" stroke-width="0.5"><path d="M2 4.75C2 3.784 2.784 3 3.75 3h3.586a1.75 1.75 0 011.237.513l1.414 1.414c.164.164.386.256.613.256h5.65c.966 0 1.75.784 1.75 1.75v7.317A1.75 1.75 0 0116.25 16H3.75A1.75 1.75 0 012 14.25V4.75z"/></svg>
+      </g>
+      <text x="22" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Public Repositories:
+      </text>
+      <text x="250" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="end">
+        63
+      </text>
+    </g>
+    <g transform="translate(25, 171.0)">
+      <g transform="translate(0, -10)">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#bd93f9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      </g>
+      <text x="22" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Total Followers:
+      </text>
+      <text x="250" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="end">
+        7
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Profile Grade Gauge (Positioned with generous left space) -->
+  <g transform="translate(415, 102)">
+    <!-- Glowing Outer Ring -->
+    <circle cx="0" cy="0" r="38" fill="#1e1f29" stroke="#50fa7b" stroke-width="5.5" filter="url(#emerald-glow)"/>
+    
+    <!-- Grade Letter -->
+    <text x="0" y="9" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="900" text-anchor="middle" letter-spacing="0.5px">
+      A++
+    </text>
+
+    <!-- Subtitle below circle -->
+    <text x="0" y="56" fill="#50fa7b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="800" text-anchor="middle" letter-spacing="0.8px">
+      PROFILE GRADE
+    </text>
+  </g>
+</svg>

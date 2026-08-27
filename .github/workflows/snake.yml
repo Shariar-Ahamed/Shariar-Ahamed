@@ -2,8 +2,8 @@ name: Generate Snake Contribution Grid
 
 on:
   schedule:
-    # Run every 1 hour (Fast auto-update)
-    - cron: "0 * * * *"
+    # Run every 6 hours (Optimized auto-update)
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -34,13 +34,28 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          # =========================================================================
-          # [OPTION B - COMMENTED OUT]: Save to 'dist' & deploy to 'output' branch
-          # To use Option B in future, uncomment lines below and comment out Option A:
-          # =========================================================================
-          # outputs: |
-          #   dist/github-contribution-grid-snake.svg
-          #   dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Generate activity graph SVG
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        continue-on-error: true
+        with:
+          username: ${{ github.repository_owner }}
+          options: "bg_color=282a36&color=f8f8f2&line=bd93f9&point=ff79c6&area=true&hide_border=false"
+          output_path: activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages SVG
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python generate_top_langs.py
+
+      - name: Generate GitHub stats SVG
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python generate_github_stats.py
 
       # =========================================================================
       # [OPTION A - ACTIVE]: Commit and push directly to 'main' branch
@@ -49,11 +64,11 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg activity-graph.svg top-langs.svg github-stats.svg
           if git diff --staged --quiet; then
-            echo "No changes in snake SVGs to commit."
+            echo "No changes in SVGs to commit."
           else
-            git commit -m "chore(snake): auto update contribution snake animation [skip ci]"
+            git commit -m "chore(stats): auto update contribution snake, activity graph, top langs & github stats [skip ci]"
             git push origin main
           fi
 
