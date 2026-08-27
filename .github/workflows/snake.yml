@@ -35,13 +35,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate activity graph SVG
-        uses: maurodesouza/github-readme-activity-graph-action@v1
         continue-on-error: true
-        with:
-          username: ${{ github.repository_owner }}
-          options: "bg_color=282a36&color=f8f8f2&line=bd93f9&point=ff79c6&area=true&hide_border=false"
-          output_path: activity-graph.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python generate_activity_graph.py
 
       - name: Generate top languages SVG
         continue-on-error: true
