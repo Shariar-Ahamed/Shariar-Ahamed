@@ -6,10 +6,10 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=3">
-    <!-- <source media="(prefers-color-scheme: light)" srcset="light.svg?v=3"> -->
-    <source media="(prefers-color-scheme: light)" srcset="dark.svg?v=3">
-    <img alt="Shariar Ahamed Profile" src="dark.svg?v=3" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/dark.svg?v=3">
+    <!-- <source media="(prefers-color-scheme: light)" srcset="assets/light.svg?v=3"> -->
+    <source media="(prefers-color-scheme: light)" srcset="assets/dark.svg?v=3">
+    <img alt="Shariar Ahamed Profile" src="assets/dark.svg?v=3" width="100%">
   </picture>
 </p>
 
@@ -179,10 +179,10 @@
   <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Shariar-Ahamed&theme=tokyonight&bg_color=282a36&title_color=ffffff&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Most Used Languages" /> 
 -->
 <p align="left">
-  <img src="top-langs.svg" width="350" alt="Most Used Languages" />
+  <img src="assets/top-langs.svg" width="350" alt="Most Used Languages" />
   <br/><br/>
   <!-- <img src="https://github-readme-stats.shion.dev/api?username=Shariar-Ahamed&theme=tokyonight&bg_color=282a36&title_color=ffffff&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" /> -->
-  <img src="github-stats.svg" width="495" alt="GitHub Stats" />
+  <img src="assets/github-stats.svg" width="495" alt="GitHub Stats" />
   <br/><br/>
   <img src="https://streak-stats.demolab.com/?user=shariar-ahamed&theme=tokyonight&background=282a36&date_format=M%20j%5B%2C%20Y%5D&ring=eb8402&fire=eb8402&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&currStreakLabel=eb8402&border=ffffff" alt="GitHub Streak" />
 </p>
@@ -199,14 +199,14 @@
 </p> 
 -->
 <p align="left">
-  <img src="activity-graph.svg" width="800" alt="Activity Graph"/>
+  <img src="assets/activity-graph.svg" width="800" alt="Activity Graph"/>
 </p>
 
 <!-- Snake Contribution Grid Animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg">
-  <img alt="Snake animation" src="github-contribution-grid-snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="assets/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
 <hr />

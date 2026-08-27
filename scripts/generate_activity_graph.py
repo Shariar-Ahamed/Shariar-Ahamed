@@ -230,5 +230,7 @@ def generate_svg(daily_contributions, output_path="activity-graph.svg"):
 if __name__ == "__main__":
     token = os.environ.get("GITHUB_TOKEN")
     data = fetch_contributions("Shariar-Ahamed", token=token)
-    generate_svg(data, "activity-graph.svg")
+    out_dir = os.path.join(os.path.dirname(__file__), "..", "assets")
+    os.makedirs(out_dir, exist_ok=True)
+    generate_svg(data, os.path.join(out_dir, "activity-graph.svg"))
 

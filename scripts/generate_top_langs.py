@@ -189,4 +189,6 @@ def generate_svg(languages, output_path="top-langs.svg"):
 if __name__ == "__main__":
     token = os.environ.get("GITHUB_TOKEN")
     langs = fetch_github_languages("Shariar-Ahamed", token=token, limit=10)
-    generate_svg(langs, "top-langs.svg")
+    out_dir = os.path.join(os.path.dirname(__file__), "..", "assets")
+    os.makedirs(out_dir, exist_ok=True)
+    generate_svg(langs, os.path.join(out_dir, "top-langs.svg"))

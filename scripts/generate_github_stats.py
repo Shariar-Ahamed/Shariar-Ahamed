@@ -284,4 +284,6 @@ if __name__ == "__main__":
     token = os.environ.get("GITHUB_TOKEN")
     stats = fetch_stats("Shariar-Ahamed", token=token)
     print(f"Current Live Stats: {stats}")
-    generate_svg(stats, "github-stats.svg")
+    out_dir = os.path.join(os.path.dirname(__file__), "..", "assets")
+    os.makedirs(out_dir, exist_ok=True)
+    generate_svg(stats, os.path.join(out_dir, "github-stats.svg"))

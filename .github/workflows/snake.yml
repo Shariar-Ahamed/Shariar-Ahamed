@@ -29,8 +29,8 @@ jobs:
           # [OPTION A - ACTIVE]: Save directly to root directory & commit to 'main'
           # =========================================================================
           outputs: |
-            github-contribution-grid-snake.svg
-            github-contribution-grid-snake-dark.svg?palette=github-dark
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -39,21 +39,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python generate_activity_graph.py
+          python scripts/generate_activity_graph.py
 
       - name: Generate top languages SVG
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python generate_top_langs.py
+          python scripts/generate_top_langs.py
 
       - name: Generate GitHub stats SVG
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python generate_github_stats.py
+          python scripts/generate_github_stats.py
 
       # =========================================================================
       # [OPTION A - ACTIVE]: Commit and push directly to 'main' branch
@@ -62,7 +62,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg activity-graph.svg top-langs.svg github-stats.svg
+          git add assets/
           if git diff --staged --quiet; then
             echo "No changes in SVGs to commit."
           else
