@@ -73,6 +73,7 @@ def fetch_stats(username="Shariar-Ahamed", token=None):
               totalCount
             }
             contributionsCollection {
+              contributionYears
               totalCommitContributions
               restrictedContributionsCount
             }
@@ -95,11 +96,46 @@ def fetch_stats(username="Shariar-Ahamed", token=None):
                     st_calc = sum(r.get("stargazerCount", 0) for r in repo_nodes)
                     stars = str(st_calc)
 
-                    # Commits
+                    # All-time multi-year commits
                     contrib = user.get("contributionsCollection", {})
-                    tot_c = contrib.get("totalCommitContributions", 0) + contrib.get("restrictedContributionsCount", 0)
-                    if tot_c > 0:
-                        commits = str(tot_c)
+                    years = contrib.get("contributionYears", [])
+                    all_time_commits = 0
+                    for y in years:
+                        try:
+                            y_query = """
+                            query($login: String!, $from: DateTime!, $to: DateTime!) {
+                              user(login: $login) {
+                                contributionsCollection(from: $from, to: $to) {
+                                  totalCommitContributions
+                                  restrictedContributionsCount
+                                }
+                              }
+                            }
+                            """
+                            y_req_data = json.dumps({
+                                "query": y_query,
+                                "variables": {
+                                    "login": username,
+                                    "from": f"{y}-01-01T00:00:00Z",
+                                    "to": f"{y}-12-31T23:59:59Z"
+                                }
+                            }).encode('utf-8')
+                            y_req = urllib.request.Request("https://api.github.com/graphql", data=y_req_data, headers={
+                                "Authorization": f"Bearer {token}",
+                                "User-Agent": "GitHub-Stats-Script",
+                                "Content-Type": "application/json"
+                            })
+                            with urllib.request.urlopen(y_req, timeout=5) as y_res:
+                                y_data = json.loads(y_res.read().decode('utf-8'))
+                                y_c = y_data.get("data", {}).get("user", {}).get("contributionsCollection", {})
+                                all_time_commits += (y_c.get("totalCommitContributions", 0) + y_c.get("restrictedContributionsCount", 0))
+                        except Exception:
+                            pass
+                    
+                    if all_time_commits > 0:
+                        commits = str(max(all_time_commits, int(FALLBACK_STATS["total_commits"])))
+                    else:
+                        commits = FALLBACK_STATS["total_commits"]
 
                     # PRs & Issues
                     prs = str(user.get("pullRequests", {}).get("totalCount", 0))
