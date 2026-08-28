@@ -203,3 +203,4 @@ if __name__ == "__main__":
     out_dir = os.path.join(os.path.dirname(__file__), "..", "assets")
     os.makedirs(out_dir, exist_ok=True)
     generate_svg(data, os.path.join(out_dir, "streak-stats.svg"))
+
