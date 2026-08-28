@@ -188,12 +188,16 @@
     <img src="https://streak-stats.demolab.com/?user=shariar-ahamed&theme=tokyonight&background=282a36&date_format=M%20j%5B%2C%20Y%5D&ring=eb8402&fire=eb8402&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&currStreakLabel=eb8402&border=ffffff" alt="GitHub Streak" />
   -->
   <img src="assets/streak-stats.svg" width="495" alt="GitHub Streak" />
+  <br/><br/>
+  <img src="assets/wakatime-stats.svg" width="495" alt="WakaTime Stats" />
 </p>
 
 <!-- Summary Cards -->
+<!-- 
 <p align="left">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shariar-ahamed&theme=dracula" width="600" alt="Summary Cards"/>
 </p>
+-->
 
 <!-- Activity Graph -->
 <!-- 

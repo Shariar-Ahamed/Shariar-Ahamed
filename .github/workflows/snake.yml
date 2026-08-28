@@ -55,6 +55,18 @@ jobs:
         run: |
           python scripts/generate_github_stats.py
 
+      - name: Generate streak stats SVG
+        continue-on-error: true
+        run: |
+          python scripts/generate_streak_stats.py
+
+      - name: Generate WakaTime stats SVG
+        continue-on-error: true
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          python scripts/generate_wakatime_stats.py
+
       # =========================================================================
       # [OPTION A - ACTIVE]: Commit and push directly to 'main' branch
       # =========================================================================
