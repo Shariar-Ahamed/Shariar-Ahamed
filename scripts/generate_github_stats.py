@@ -207,8 +207,8 @@ def fetch_stats(username="Shariar-Ahamed", token=None):
     }
 
 def generate_svg(stats, output_path="github-stats.svg"):
-    # Exact original dimensions: Width 495, Height 195 with generous spacing before A++
-    width = 495
+    # Proportional stepped width: 425px (1st card 350px < 2nd card 425px < 3rd card 495px)
+    width = 425
     height = 195
     
     rows = [
@@ -267,7 +267,7 @@ def generate_svg(stats, output_path="github-stats.svg"):
       <text x="22" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         {r['label']}
       </text>
-      <text x="250" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="end">
+      <text x="235" y="0.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="end">
         {r['value']}
       </text>
     </g>''')
@@ -279,7 +279,7 @@ def generate_svg(stats, output_path="github-stats.svg"):
     </filter>
   </defs>
 
-  <!-- Card Background (Dracula Theme matching standard 495x195) -->
+  <!-- Card Background (Dracula Theme with stepped width 425x195) -->
   <rect width="{width}" height="{height}" rx="10" fill="#282a36" stroke="#44475a" stroke-width="1"/>
 
   <!-- Card Title -->
@@ -288,15 +288,15 @@ def generate_svg(stats, output_path="github-stats.svg"):
   </text>
 
   <!-- Divider Line -->
-  <line x1="25" y1="46" x2="265" y2="46" stroke="#383a59" stroke-width="1" />
+  <line x1="25" y1="46" x2="245" y2="46" stroke="#383a59" stroke-width="1" />
 
-  <!-- Left Stats Rows (Ending at x=250 with 110px space before A++) -->
+  <!-- Left Stats Rows -->
   <g>
     {"".join(rows_svg)}
   </g>
 
-  <!-- Right Profile Grade Gauge (Positioned with generous left space) -->
-  <g transform="translate(415, 102)">
+  <!-- Right Profile Grade Gauge (Shifted slightly left to x=345) -->
+  <g transform="translate(345, 102)">
     <!-- Glowing Outer Ring -->
     <circle cx="0" cy="0" r="38" fill="#1e1f29" stroke="#50fa7b" stroke-width="5.5" filter="url(#emerald-glow)"/>
     
