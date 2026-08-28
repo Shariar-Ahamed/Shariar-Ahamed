@@ -188,8 +188,19 @@
     <img src="https://streak-stats.demolab.com/?user=shariar-ahamed&theme=tokyonight&background=282a36&date_format=M%20j%5B%2C%20Y%5D&ring=eb8402&fire=eb8402&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&currStreakLabel=eb8402&border=ffffff" alt="GitHub Streak" />
   -->
   <img src="assets/streak-stats.svg" width="495" alt="GitHub Streak" />
+</p>
+
+<!-- My Coding Stats (WakaTime) -->
+<h2>📊 My Coding Stats</h2>
+
+<p align="left">
+  <a href="https://wakatime.com/@ShariarAlways">
+    <img src="https://wakatime.com/badge/user/c7433bc5-6f12-4c97-baea-430790fa608c.svg" alt="wakatime" />
+  </a>
   <br/><br/>
   <img src="assets/wakatime-stats.svg" width="495" alt="WakaTime Stats" />
+  <br/><br/>
+  🚀 Powered by <a href="https://wakatime.com/@ShariarAlways"><b>WakaTime</b></a> — tracking my coding activity in real-time!
 </p>
 
 <!-- Summary Cards -->
