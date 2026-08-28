@@ -5,7 +5,7 @@ import urllib.request
 from datetime import datetime
 
 FALLBACK_STREAK = {
-    "total_contributions": "2,647",
+    "total_contributions": "2,660",
     "total_range": "Mar 22, 2023 - Present",
     "current_streak": 5,
     "current_range": "Aug 23 - Aug 27",
@@ -29,7 +29,7 @@ def fetch_streak_data(username="Shariar-Ahamed", token=None):
     url = f"https://github.com/users/{username}/contributions"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     
-    total_commits_all_time = "2,647"
+    total_commits_all_time = "2,660"
     try:
         stats_url = f"https://github-readme-stats.shion.dev/api?username={username}&include_all_commits=true&count_private=true"
         stats_req = urllib.request.Request(stats_url, headers={"User-Agent": "Mozilla/5.0"})
@@ -40,7 +40,7 @@ def fetch_streak_data(username="Shariar-Ahamed", token=None):
                 c_val = commits_m.group(1).strip()
                 if c_val.endswith("k"):
                     k_num = float(c_val.replace("k", ""))
-                    total_commits_all_time = f"{int(k_num * 1000):,}" if k_num != 2.4 else "2,647"
+                    total_commits_all_time = f"{int(k_num * 1000):,}" if k_num != 2.4 else "2,660"
                 else:
                     total_commits_all_time = f"{int(c_val):,}"
     except Exception:
@@ -112,7 +112,7 @@ def generate_svg(streak_data, output_path="assets/streak-stats.svg"):
     height = 195
     
     # Official streak-stats flame icon and notched ring
-    # Ring radius = 40. Top gap from -12px to +12px where flame sits
+    # Ring radius = 40. Top gap from -12.5px to +12.5px where flame sits
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none">
   <!-- Card Background (Dracula Theme matching github-stats.svg) -->
   <rect width="{width}" height="{height}" rx="10" fill="#282a36" stroke="#44475a" stroke-width="1.2"/>
