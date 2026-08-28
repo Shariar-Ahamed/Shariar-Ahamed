@@ -16,7 +16,7 @@
   <!-- Multi-Color Progress Bar -->
   <g clip-path="url(#bar-clip)">
     <rect x="25" y="52" width="445" height="8" fill="#1e1f29"/>
-    <rect x="25.00" y="52" width="193.24" height="8" fill="#707880"/><rect x="218.24" y="52" width="103.03" height="8" fill="#f1fa8c"/><rect x="321.27" y="52" width="42.06" height="8" fill="#ff79c6"/><rect x="363.32" y="52" width="35.38" height="8" fill="#8be9fd"/><rect x="398.70" y="52" width="27.50" height="8" fill="#bd93f9"/><rect x="426.21" y="52" width="9.70" height="8" fill="#ff5555"/><rect x="435.91" y="52" width="8.01" height="8" fill="#50fa7b"/><rect x="443.92" y="52" width="7.57" height="8" fill="#50fa7b"/><rect x="451.49" y="52" width="5.34" height="8" fill="#6272a4"/><rect x="456.83" y="52" width="4.01" height="8" fill="#ff5555"/><rect x="460.83" y="52" width="2.31" height="8" fill="#6272a4"/><rect x="463.15" y="52" width="2.09" height="8" fill="#6272a4"/><rect x="465.24" y="52" width="1.47" height="8" fill="#ffb86c"/><rect x="466.71" y="52" width="1.07" height="8" fill="#50fa7b"/><rect x="467.77" y="52" width="0.80" height="8" fill="#8be9fd"/>
+    <rect x="25.00" y="52" width="193.23" height="8" fill="#707880"/><rect x="218.23" y="52" width="103.02" height="8" fill="#f1fa8c"/><rect x="321.25" y="52" width="42.06" height="8" fill="#ff79c6"/><rect x="363.31" y="52" width="35.38" height="8" fill="#8be9fd"/><rect x="398.69" y="52" width="27.50" height="8" fill="#bd93f9"/><rect x="426.19" y="52" width="9.70" height="8" fill="#ff5555"/><rect x="435.89" y="52" width="8.01" height="8" fill="#50fa7b"/><rect x="443.90" y="52" width="7.57" height="8" fill="#50fa7b"/><rect x="451.47" y="52" width="5.34" height="8" fill="#6272a4"/><rect x="456.81" y="52" width="4.01" height="8" fill="#ff5555"/><rect x="460.81" y="52" width="2.31" height="8" fill="#6272a4"/><rect x="463.13" y="52" width="2.09" height="8" fill="#6272a4"/><rect x="465.22" y="52" width="1.47" height="8" fill="#ffb86c"/><rect x="466.69" y="52" width="1.07" height="8" fill="#50fa7b"/><rect x="467.76" y="52" width="0.80" height="8" fill="#8be9fd"/>
   </g>
 
   <!-- Languages Time Spent List (2 Columns) -->
@@ -29,136 +29,136 @@
       </text>
     </g>
     <g transform="translate(25, 104)">
-      <circle cx="4" cy="-4" r="4" fill="#f1fa8c"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        JavaScript - <tspan fill="#8be9fd">218 hrs 9 mins</tspan>
-      </text>
-    </g>
-    <g transform="translate(25, 126)">
       <circle cx="4" cy="-4" r="4" fill="#ff79c6"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         HTML - <tspan fill="#8be9fd">89 hrs</tspan>
       </text>
     </g>
-    <g transform="translate(25, 148)">
-      <circle cx="4" cy="-4" r="4" fill="#8be9fd"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Markdown - <tspan fill="#8be9fd">74 hrs 55 mins</tspan>
-      </text>
-    </g>
-    <g transform="translate(25, 170)">
+    <g transform="translate(25, 126)">
       <circle cx="4" cy="-4" r="4" fill="#bd93f9"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         CSS - <tspan fill="#8be9fd">58 hrs 14 mins</tspan>
       </text>
     </g>
-    <g transform="translate(25, 192)">
-      <circle cx="4" cy="-4" r="4" fill="#ff5555"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        C++ - <tspan fill="#8be9fd">20 hrs 29 mins</tspan>
-      </text>
-    </g>
-    <g transform="translate(25, 214)">
+    <g transform="translate(25, 148)">
       <circle cx="4" cy="-4" r="4" fill="#50fa7b"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         M3U - <tspan fill="#8be9fd">16 hrs 56 mins</tspan>
       </text>
     </g>
-    <g transform="translate(25, 236)">
-      <circle cx="4" cy="-4" r="4" fill="#50fa7b"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Python - <tspan fill="#8be9fd">16 hrs 1 min</tspan>
-      </text>
-    </g>
-    <g transform="translate(25, 258)">
+    <g transform="translate(25, 170)">
       <circle cx="4" cy="-4" r="4" fill="#6272a4"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         JSON - <tspan fill="#8be9fd">11 hrs 16 mins</tspan>
       </text>
     </g>
-    <g transform="translate(25, 280)">
-      <circle cx="4" cy="-4" r="4" fill="#ff5555"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        YAML - <tspan fill="#8be9fd">8 hrs 30 mins</tspan>
-      </text>
-    </g>
-    <g transform="translate(25, 302)">
+    <g transform="translate(25, 192)">
       <circle cx="4" cy="-4" r="4" fill="#6272a4"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         Text - <tspan fill="#8be9fd">4 hrs 53 mins</tspan>
       </text>
     </g>
-    <g transform="translate(25, 324)">
-      <circle cx="4" cy="-4" r="4" fill="#6272a4"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Bash - <tspan fill="#8be9fd">4 hrs 25 mins</tspan>
-      </text>
-    </g>
-    
-    <g transform="translate(255, 82)">
+    <g transform="translate(25, 214)">
       <circle cx="4" cy="-4" r="4" fill="#ffb86c"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         Git Config - <tspan fill="#8be9fd">3 hrs 7 mins</tspan>
       </text>
     </g>
-    <g transform="translate(255, 104)">
-      <circle cx="4" cy="-4" r="4" fill="#50fa7b"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Common Lisp - <tspan fill="#8be9fd">2 hrs 17 mins</tspan>
-      </text>
-    </g>
-    <g transform="translate(255, 126)">
+    <g transform="translate(25, 236)">
       <circle cx="4" cy="-4" r="4" fill="#8be9fd"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         Groovy - <tspan fill="#8be9fd">1 hr 40 mins</tspan>
       </text>
     </g>
-    <g transform="translate(255, 148)">
-      <circle cx="4" cy="-4" r="4" fill="#f1fa8c"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Java - <tspan fill="#8be9fd">1 hr 14 mins</tspan>
-      </text>
-    </g>
-    <g transform="translate(255, 170)">
+    <g transform="translate(25, 258)">
       <circle cx="4" cy="-4" r="4" fill="#8be9fd"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         XML - <tspan fill="#8be9fd">44 mins</tspan>
       </text>
     </g>
-    <g transform="translate(255, 192)">
-      <circle cx="4" cy="-4" r="4" fill="#50fa7b"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Yacc - <tspan fill="#8be9fd">34 mins</tspan>
-      </text>
-    </g>
-    <g transform="translate(255, 214)">
+    <g transform="translate(25, 280)">
       <circle cx="4" cy="-4" r="4" fill="#50fa7b"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         CSV - <tspan fill="#8be9fd">11 mins</tspan>
       </text>
     </g>
-    <g transform="translate(255, 236)">
-      <circle cx="4" cy="-4" r="4" fill="#8be9fd"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        TypeScript - <tspan fill="#8be9fd">5 mins</tspan>
-      </text>
-    </g>
-    <g transform="translate(255, 258)">
+    <g transform="translate(25, 302)">
       <circle cx="4" cy="-4" r="4" fill="#6272a4"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         Image - <tspan fill="#8be9fd">5 mins</tspan>
       </text>
     </g>
-    <g transform="translate(255, 280)">
-      <circle cx="4" cy="-4" r="4" fill="#ffb86c"/>
-      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        TOML - <tspan fill="#8be9fd">4 mins</tspan>
-      </text>
-    </g>
-    <g transform="translate(255, 302)">
+    <g transform="translate(25, 324)">
       <circle cx="4" cy="-4" r="4" fill="#f8f8f2"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
         INI - <tspan fill="#8be9fd">1 min</tspan>
+      </text>
+    </g>
+    
+    <g transform="translate(255, 82)">
+      <circle cx="4" cy="-4" r="4" fill="#f1fa8c"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        JavaScript - <tspan fill="#8be9fd">218 hrs 9 mins</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 104)">
+      <circle cx="4" cy="-4" r="4" fill="#8be9fd"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Markdown - <tspan fill="#8be9fd">74 hrs 55 mins</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 126)">
+      <circle cx="4" cy="-4" r="4" fill="#ff5555"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        C++ - <tspan fill="#8be9fd">20 hrs 29 mins</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 148)">
+      <circle cx="4" cy="-4" r="4" fill="#50fa7b"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Python - <tspan fill="#8be9fd">16 hrs 1 min</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 170)">
+      <circle cx="4" cy="-4" r="4" fill="#ff5555"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        YAML - <tspan fill="#8be9fd">8 hrs 30 mins</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 192)">
+      <circle cx="4" cy="-4" r="4" fill="#6272a4"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Bash - <tspan fill="#8be9fd">4 hrs 25 mins</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 214)">
+      <circle cx="4" cy="-4" r="4" fill="#50fa7b"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Common Lisp - <tspan fill="#8be9fd">2 hrs 17 mins</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 236)">
+      <circle cx="4" cy="-4" r="4" fill="#f1fa8c"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Java - <tspan fill="#8be9fd">1 hr 14 mins</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 258)">
+      <circle cx="4" cy="-4" r="4" fill="#50fa7b"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        Yacc - <tspan fill="#8be9fd">34 mins</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 280)">
+      <circle cx="4" cy="-4" r="4" fill="#8be9fd"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        TypeScript - <tspan fill="#8be9fd">5 mins</tspan>
+      </text>
+    </g>
+    <g transform="translate(255, 302)">
+      <circle cx="4" cy="-4" r="4" fill="#ffb86c"/>
+      <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
+        TOML - <tspan fill="#8be9fd">4 mins</tspan>
       </text>
     </g>
     <g transform="translate(255, 324)">
