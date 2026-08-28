@@ -134,31 +134,43 @@
 
 <hr />
 
-<h2>📊 My Coding Stats</h2>
 
-<!-- WakaTime Badge -->
-<p>
-  <img src="https://wakatime.com/badge/user/c7433bc5-6f12-4c97-baea-430790fa608c.svg" alt="WakaTime Badge" />
-</p>
-
-<!-- WakaTime GitHub Stats -->
+<!-- WakaTime GitHub Stats
 <p>
   <a href="https://wakatime.com/@ShariarAlways">
     <img src="https://github-readme-stats.shion.dev/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&bg_color=282a36&title_color=ffffff" alt="WakaTime Stats" />
   </a>
 </p>
 
-<p>🚀 Powered by <strong><a href="https://wakatime.com/@ShariarAlways">WakaTime</a></strong> — tracking my coding activity in real-time!</p>
+<p>🚀 Powered by <strong><a href="https://wakatime.com/@ShariarAlways">WakaTime</a></strong> — tracking my coding activity in real-time!</p> -->
+
+
+<hr />
+
+<!-- My Real-time Coding Stats (WakaTime SVG) -->
+<h2>⏱️ My Real-time Coding Stats (WakaTime SVG)</h2>
+
+<p align="left">
+  <a href="https://wakatime.com/@ShariarAlways">
+    <img src="https://wakatime.com/badge/user/c7433bc5-6f12-4c97-baea-430790fa608c.svg" alt="wakatime" />
+  </a>
+  <br/><br/>
+  <img src="assets/wakatime-stats.svg" width="495" alt="WakaTime Stats" />
+</p>
+
+
+
+<!-- <hr />
 
 <!--⏱️ Powered by <a href="https://wakatime.com/@ShariarAlways">WakaTime</a> — tracking my coding activity in real-time!-->
 
 <!--<h2>📊 My Coding Stats</h2>
 
-<a href="https://wakatime.com/@ShariarAlways"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2" alt="WakaTime Stats" /></a> -->
+<a href="https://wakatime.com/@ShariarAlways"><img src="https://github-readme-stats.vercel.app/api/wakatime?username=ShariarAlways&layout=compact&theme=tokyonight&v=2" alt="WakaTime Stats" /></a>
 
-<hr />
+<hr /> -->
 
-<h2>⏱️ My Real-time Coding Stats (WakaTime SVG)</h2>
+
 
 <p align="left">
   <img 
@@ -167,6 +179,8 @@
     height="400px" 
     alt="WakaTime Stats"
   />
+    <br/><br/>
+  🚀 Powered by <a href="https://wakatime.com/@ShariarAlways"><b>WakaTime</b></a> — tracking my coding activity in real-time!
 </p>
 
 <hr />
@@ -190,18 +204,6 @@
   <img src="assets/streak-stats.svg" width="495" alt="GitHub Streak" />
 </p>
 
-<!-- My Coding Stats (WakaTime) -->
-<h2>📊 My Coding Stats</h2>
-
-<p align="left">
-  <a href="https://wakatime.com/@ShariarAlways">
-    <img src="https://wakatime.com/badge/user/c7433bc5-6f12-4c97-baea-430790fa608c.svg" alt="wakatime" />
-  </a>
-  <br/><br/>
-  <img src="assets/wakatime-stats.svg" width="495" alt="WakaTime Stats" />
-  <br/><br/>
-  🚀 Powered by <a href="https://wakatime.com/@ShariarAlways"><b>WakaTime</b></a> — tracking my coding activity in real-time!
-</p>
 
 <!-- Summary Cards -->
 <!-- 
