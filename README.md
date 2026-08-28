@@ -148,7 +148,7 @@
 <hr />
 
 <!-- My Real-time Coding Stats (WakaTime SVG) -->
-<h2>⏱️ My Real-time Coding Stats (WakaTime SVG)</h2>
+<h2>⏱️ My Real-time Coding Stats (WakaTime API)</h2>
 
 <p align="left">
   <a href="https://wakatime.com/@ShariarAlways">

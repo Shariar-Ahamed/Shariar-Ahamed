@@ -1,4 +1,4 @@
-name: Generate Snake Contribution Grid
+name: Auto Update Profile Stats & Animations
 
 on:
   schedule:
