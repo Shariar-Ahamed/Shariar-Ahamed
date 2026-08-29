@@ -16,7 +16,7 @@
   <!-- Multi-Color Progress Bar -->
   <g clip-path="url(#bar-clip)">
     <rect x="25" y="52" width="445" height="8" fill="#1e1f29"/>
-    <rect x="25.00" y="52" width="193.24" height="8" fill="#707880"/><rect x="218.24" y="52" width="103.03" height="8" fill="#f1fa8c"/><rect x="321.27" y="52" width="42.06" height="8" fill="#ff79c6"/><rect x="363.32" y="52" width="35.38" height="8" fill="#8be9fd"/><rect x="398.70" y="52" width="27.50" height="8" fill="#bd93f9"/><rect x="426.21" y="52" width="9.70" height="8" fill="#ff5555"/><rect x="435.91" y="52" width="8.01" height="8" fill="#50fa7b"/><rect x="443.92" y="52" width="7.57" height="8" fill="#50fa7b"/><rect x="451.49" y="52" width="5.34" height="8" fill="#6272a4"/><rect x="456.83" y="52" width="4.01" height="8" fill="#ff5555"/><rect x="460.83" y="52" width="2.31" height="8" fill="#6272a4"/><rect x="463.15" y="52" width="2.09" height="8" fill="#6272a4"/><rect x="465.24" y="52" width="1.47" height="8" fill="#ffb86c"/><rect x="466.71" y="52" width="1.07" height="8" fill="#50fa7b"/><rect x="467.77" y="52" width="0.80" height="8" fill="#8be9fd"/>
+    <rect x="25.00" y="52" width="193.56" height="8" fill="#707880"/><rect x="218.56" y="52" width="102.74" height="8" fill="#f1fa8c"/><rect x="321.30" y="52" width="41.78" height="8" fill="#ff79c6"/><rect x="363.08" y="52" width="35.77" height="8" fill="#8be9fd"/><rect x="398.85" y="52" width="27.32" height="8" fill="#bd93f9"/><rect x="426.17" y="52" width="9.61" height="8" fill="#ff5555"/><rect x="435.78" y="52" width="7.96" height="8" fill="#50fa7b"/><rect x="443.75" y="52" width="7.70" height="8" fill="#50fa7b"/><rect x="451.45" y="52" width="5.29" height="8" fill="#6272a4"/><rect x="456.74" y="52" width="4.05" height="8" fill="#ff5555"/><rect x="460.79" y="52" width="2.31" height="8" fill="#6272a4"/><rect x="463.10" y="52" width="2.09" height="8" fill="#6272a4"/><rect x="465.19" y="52" width="1.51" height="8" fill="#ffb86c"/><rect x="466.71" y="52" width="1.07" height="8" fill="#50fa7b"/><rect x="467.78" y="52" width="0.80" height="8" fill="#8be9fd"/>
   </g>
 
   <!-- Languages Time Spent List (2 Columns) -->
@@ -25,25 +25,25 @@
     <g transform="translate(25, 82)">
       <circle cx="4" cy="-4" r="4" fill="#707880"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Other - <tspan fill="#8be9fd">409 hrs 4 mins</tspan>
+        Other - <tspan fill="#8be9fd">412 hrs 43 mins</tspan>
       </text>
     </g>
     <g transform="translate(25, 104)">
       <circle cx="4" cy="-4" r="4" fill="#f1fa8c"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        JavaScript - <tspan fill="#8be9fd">218 hrs 9 mins</tspan>
+        JavaScript - <tspan fill="#8be9fd">219 hrs 2 mins</tspan>
       </text>
     </g>
     <g transform="translate(25, 126)">
       <circle cx="4" cy="-4" r="4" fill="#ff79c6"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        HTML - <tspan fill="#8be9fd">89 hrs</tspan>
+        HTML - <tspan fill="#8be9fd">89 hrs 4 mins</tspan>
       </text>
     </g>
     <g transform="translate(25, 148)">
       <circle cx="4" cy="-4" r="4" fill="#8be9fd"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Markdown - <tspan fill="#8be9fd">74 hrs 55 mins</tspan>
+        Markdown - <tspan fill="#8be9fd">76 hrs 18 mins</tspan>
       </text>
     </g>
     <g transform="translate(25, 170)">
@@ -67,7 +67,7 @@
     <g transform="translate(25, 236)">
       <circle cx="4" cy="-4" r="4" fill="#50fa7b"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Python - <tspan fill="#8be9fd">16 hrs 1 min</tspan>
+        Python - <tspan fill="#8be9fd">16 hrs 21 mins</tspan>
       </text>
     </g>
     <g transform="translate(25, 258)">
@@ -79,7 +79,7 @@
     <g transform="translate(25, 280)">
       <circle cx="4" cy="-4" r="4" fill="#ff5555"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        YAML - <tspan fill="#8be9fd">8 hrs 30 mins</tspan>
+        YAML - <tspan fill="#8be9fd">8 hrs 40 mins</tspan>
       </text>
     </g>
     <g transform="translate(25, 302)">
@@ -98,7 +98,7 @@
     <g transform="translate(255, 82)">
       <circle cx="4" cy="-4" r="4" fill="#ffb86c"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Git Config - <tspan fill="#8be9fd">3 hrs 7 mins</tspan>
+        Git Config - <tspan fill="#8be9fd">3 hrs 10 mins</tspan>
       </text>
     </g>
     <g transform="translate(255, 104)">
