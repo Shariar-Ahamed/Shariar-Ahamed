@@ -21,7 +21,7 @@
     <!-- Left Column: Total Contributions -->
     <g transform="translate(85, 0)">
       <text x="0" y="80" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="28px">
-        2,711
+        2,712
       </text>
       <text x="0" y="116" text-anchor="middle" fill="#f8f8f2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="14px">
         Total Contributions
@@ -46,7 +46,7 @@
 
       <!-- Center Streak Number -->
       <text x="247.5" y="80" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="28px">
-        11
+        12
       </text>
 
       <!-- Current Streak Label -->
@@ -56,7 +56,7 @@
 
       <!-- Current Streak Range -->
       <text x="247.5" y="166" text-anchor="middle" fill="#80cbc4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12px">
-        Aug 23 - Sep 2
+        Aug 23 - Sep 3
       </text>
     </g>
 
