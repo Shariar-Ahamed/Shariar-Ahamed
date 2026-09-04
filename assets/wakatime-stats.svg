@@ -16,7 +16,7 @@
   <!-- Multi-Color Progress Bar -->
   <g clip-path="url(#bar-clip)">
     <rect x="25" y="52" width="445" height="8" fill="#1e1f29"/>
-    <rect x="25.00" y="52" width="198.36" height="8" fill="#707880"/><rect x="223.36" y="52" width="103.16" height="8" fill="#f1fa8c"/><rect x="326.52" y="52" width="40.19" height="8" fill="#ff79c6"/><rect x="366.71" y="52" width="34.67" height="8" fill="#8be9fd"/><rect x="401.37" y="52" width="26.26" height="8" fill="#bd93f9"/><rect x="427.63" y="52" width="9.21" height="8" fill="#ff5555"/><rect x="436.84" y="52" width="7.61" height="8" fill="#50fa7b"/><rect x="444.45" y="52" width="7.43" height="8" fill="#50fa7b"/><rect x="451.89" y="52" width="5.34" height="8" fill="#6272a4"/><rect x="457.23" y="52" width="3.92" height="8" fill="#ff5555"/><rect x="461.14" y="52" width="2.23" height="8" fill="#6272a4"/><rect x="463.37" y="52" width="2.00" height="8" fill="#6272a4"/><rect x="465.37" y="52" width="1.42" height="8" fill="#ffb86c"/><rect x="466.80" y="52" width="1.02" height="8" fill="#50fa7b"/>
+    <rect x="25.00" y="52" width="198.67" height="8" fill="#707880"/><rect x="223.67" y="52" width="103.03" height="8" fill="#f1fa8c"/><rect x="326.70" y="52" width="40.14" height="8" fill="#ff79c6"/><rect x="366.84" y="52" width="34.67" height="8" fill="#8be9fd"/><rect x="401.51" y="52" width="26.21" height="8" fill="#bd93f9"/><rect x="427.72" y="52" width="9.21" height="8" fill="#ff5555"/><rect x="436.93" y="52" width="7.61" height="8" fill="#50fa7b"/><rect x="444.54" y="52" width="7.39" height="8" fill="#50fa7b"/><rect x="451.93" y="52" width="5.30" height="8" fill="#6272a4"/><rect x="457.23" y="52" width="3.92" height="8" fill="#ff5555"/><rect x="461.14" y="52" width="2.23" height="8" fill="#6272a4"/><rect x="463.37" y="52" width="2.00" height="8" fill="#6272a4"/><rect x="465.37" y="52" width="1.42" height="8" fill="#ffb86c"/><rect x="466.80" y="52" width="1.02" height="8" fill="#50fa7b"/>
   </g>
 
   <!-- Languages Time Spent List (2 Columns) -->
@@ -25,7 +25,7 @@
     <g transform="translate(25, 82)">
       <circle cx="4" cy="-4" r="4" fill="#707880"/>
       <text x="14" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#f8f8f2">
-        Other - <tspan fill="#8be9fd">440 hrs 18 mins</tspan>
+        Other - <tspan fill="#8be9fd">441 hrs 31 mins</tspan>
       </text>
     </g>
     <g transform="translate(25, 104)">
