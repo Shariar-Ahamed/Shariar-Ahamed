@@ -26,7 +26,7 @@
   <g clip-path="url(#bar-clip)">
     <!-- Base Background -->
     <rect x="25" y="65" width="300" height="8" fill="#1e1f29"/>
-    <rect x="25.0" y="65" width="134.8" height="8" fill="#f1fa8c" /><rect x="159.8" y="65" width="72.9" height="8" fill="#ffb86c" /><rect x="232.7" y="65" width="44.7" height="8" fill="#8be9fd" /><rect x="277.3" y="65" width="21.4" height="8" fill="#6272a4" /><rect x="298.8" y="65" width="10.8" height="8" fill="#50fa7b" /><rect x="309.6" y="65" width="8.5" height="8" fill="#8be9fd" /><rect x="318.0" y="65" width="5.1" height="8" fill="#ff79c6" /><rect x="323.1" y="65" width="2.5" height="8" fill="#bd93f9" /><rect x="325.6" y="65" width="2.5" height="8" fill="#ff5555" /><rect x="328.1" y="65" width="2.5" height="8" fill="#8be9fd" />
+    <rect x="25.0" y="65" width="134.2" height="8" fill="#f1fa8c" /><rect x="159.2" y="65" width="72.6" height="8" fill="#ffb86c" /><rect x="231.8" y="65" width="46.4" height="8" fill="#8be9fd" /><rect x="278.2" y="65" width="21.0" height="8" fill="#6272a4" /><rect x="299.2" y="65" width="10.6" height="8" fill="#50fa7b" /><rect x="309.8" y="65" width="8.3" height="8" fill="#8be9fd" /><rect x="318.2" y="65" width="5.0" height="8" fill="#ff79c6" /><rect x="323.1" y="65" width="2.5" height="8" fill="#bd93f9" /><rect x="325.6" y="65" width="2.5" height="8" fill="#ff5555" /><rect x="328.1" y="65" width="2.5" height="8" fill="#8be9fd" />
   </g>
 
   <!-- Languages List (2 Columns) -->
@@ -38,7 +38,7 @@
         JavaScript
       </text>
       <text x="155" y="3.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#f1fa8c" text-anchor="end">
-        44.92%
+        44.74%
       </text>
     </g>
     <g transform="translate(0, 121)">
@@ -47,7 +47,7 @@
         HTML
       </text>
       <text x="155" y="3.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#ffb86c" text-anchor="end">
-        24.3%
+        24.2%
       </text>
     </g>
     <g transform="translate(0, 144)">
@@ -56,7 +56,7 @@
         CSS
       </text>
       <text x="155" y="3.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#8be9fd" text-anchor="end">
-        14.89%
+        15.45%
       </text>
     </g>
     <g transform="translate(0, 167)">
@@ -65,7 +65,7 @@
         C
       </text>
       <text x="155" y="3.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#6272a4" text-anchor="end">
-        7.14%
+        7.01%
       </text>
     </g>
     <g transform="translate(0, 190)">
@@ -74,7 +74,7 @@
         Python
       </text>
       <text x="155" y="3.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#50fa7b" text-anchor="end">
-        3.6%
+        3.53%
       </text>
     </g>
     
@@ -84,7 +84,7 @@
         TypeScript
       </text>
       <text x="320" y="3.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#8be9fd" text-anchor="end">
-        2.83%
+        2.78%
       </text>
     </g>
     <g transform="translate(0, 121)">
@@ -93,7 +93,7 @@
         C++
       </text>
       <text x="320" y="3.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#ff79c6" text-anchor="end">
-        1.69%
+        1.66%
       </text>
     </g>
     <g transform="translate(0, 144)">
@@ -102,7 +102,7 @@
         Java
       </text>
       <text x="320" y="3.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#bd93f9" text-anchor="end">
-        0.27%
+        0.26%
       </text>
     </g>
     <g transform="translate(0, 167)">
